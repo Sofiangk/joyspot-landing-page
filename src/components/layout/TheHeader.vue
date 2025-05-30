@@ -117,7 +117,7 @@ watch(isMenuOpen, (newValue) => {
               : 'bg-gray-100 text-gray-700 hover:bg-gray-200',
           ]"
         >
-          {{ locale.toUpperCase() }}
+          {{ locale === 'en' ? '🇬🇧 EN' : '🇪🇪 ET' }}
         </button>
 
         <!-- Book Now Button -->
@@ -131,35 +131,43 @@ watch(isMenuOpen, (newValue) => {
       </nav>
 
       <!-- Mobile Menu Button -->
-      <button
-        class="md:hidden z-50 flex items-center p-2 rounded-md"
-        :class="[isScrolled ? 'text-gray-700' : 'text-white']"
-        @click="toggleMenu"
-        aria-label="Menu"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="h-6 w-6"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
+      <div class="flex md:hidden items-center space-x-4">
+        <button
+          @click="toggleLocale"
+          class="text-sm font-medium px-3 py-1 rounded-md bg-gray-100 text-gray-700 hover:bg-gray-200 transition-colors duration-200"
         >
-          <path
-            v-if="!isMenuOpen"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M4 6h16M4 12h16M4 18h16"
-          />
-          <path
-            v-else
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M6 18L18 6M6 6l12 12"
-          />
-        </svg>
-      </button>
+          {{ locale === 'en' ? '🇬🇧 EN' : '🇪🇪 ET' }}
+        </button>
+        <button
+          class="md:hidden z-50 flex items-center p-2 rounded-md"
+          :class="[isScrolled ? 'text-gray-700' : 'text-white']"
+          @click="toggleMenu"
+          aria-label="Menu"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              v-if="!isMenuOpen"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+            <path
+              v-else
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </button>
+      </div>
     </div>
 
     <!-- Mobile Menu -->
@@ -190,13 +198,9 @@ watch(isMenuOpen, (newValue) => {
         <!-- Language Toggle in Mobile Menu -->
         <button
           @click="toggleLocale"
-          class="mt-6 px-4 py-2 bg-white/20 text-white rounded-md hover:bg-white/30 transition-colors duration-200"
+          class="text-xl font-medium text-white hover:text-accent-300 transition-colors duration-200"
         >
-          {{
-            locale === 'en'
-              ? t('nav.languageToggle.toEstonian')
-              : t('nav.languageToggle.toEnglish')
-          }}
+          {{ locale === 'en' ? '🇬🇧 EN' : '🇪🇪 ET' }}
         </button>
       </nav>
     </div>

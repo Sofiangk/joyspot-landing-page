@@ -9,7 +9,7 @@ import et from './i18n/et.json';
 // Configure i18n
 const i18n = createI18n({
   legacy: false, // Composition API
-  locale: 'en',
+  locale: 'et',
   fallbackLocale: 'en',
   messages: {
     en,
