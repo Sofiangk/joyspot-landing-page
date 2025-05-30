@@ -194,7 +194,7 @@ const features = [
                 />
               </svg>
             </div>
-            <p class="text-gray-700 text-lg leading-relaxed">
+            <p class="text-gray-700 leading-relaxed">
               {{ t(`about.important_notes.${key}`) }}
             </p>
           </div>

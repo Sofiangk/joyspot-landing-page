@@ -49,7 +49,7 @@
       "items": {
         "birthdays": {
           "title": "Children's Birthday Parties",
-          "description": "Ages 4-12"
+          "description": "Ages under 12"
         },
         "school": {
           "title": "School Class Events",
@@ -288,8 +288,8 @@
     "title": "Contact Us",
     "subtitle": "We'd love to hear from you",
     "info": {
-      "address": "123 Fun Street, Party Town, PT 12345",
-      "phone": "(555) 123-4567",
+      "address": "Madara tn 29/2, Kristiine, Tallinn, Harjumaa",
+      "phone": "+372 52 322 744",
       "email": "",
       "hours": "Open: Tue-Sun, 9:00-18:00"
     },

@@ -49,7 +49,7 @@
       "items": {
         "birthdays": {
           "title": "Laste Sünnipäevapeod",
-          "description": "Vanuses 4-12"
+          "description": "Vanuses alla 12"
         },
         "school": {
           "title": "Kooliüritused",
@@ -244,8 +244,8 @@
     "title": "Võta Meiega Ühendust",
     "subtitle": "Meil on hea meel sinult kuulda",
     "info": {
-      "address": "Lõbu tänav 123, Peolinn, PT 12345",
-      "phone": "(+372) 555 1234",
+      "address": "Madara tn 29/2, Kristiine, Tallinn, Harjumaa",
+      "phone": "+372 52 322 744",
       "email": "info\\@joyspot.ee",
       "hours": "Avatud: T-P, 9:00-18:00"
     },

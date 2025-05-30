@@ -248,7 +248,7 @@ const handleSubmit = () => {
           <!-- Map -->
           <div class="rounded-lg overflow-hidden shadow-md h-80">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127054.5866357498!2d24.650722061257904!3d59.43683916511372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4692949c233052f1%3A0x40ea1cf35200471!2sTallinn%2C%20Estonia!5e0!3m2!1sen!2sus!4v1654171776626!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2032.0243736543366!2d24.70431091570775!3d59.42332498169376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4692935c7ed21ac3%3A0x3bf6c02d4f5b6fdb!2sMadara%2029%2F2%2C%2010613%20Tallinn%2C%20Estonia!5e0!3m2!1sen!2sus!4v1710876069810!5m2!1sen!2sus"
               width="100%"
               height="100%"
               style="border: 0"
