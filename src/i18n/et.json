@@ -118,6 +118,7 @@
         "info": "Kas soovite, et peol osaleksid Superman, Batman või Ämblikmees? Kangelased mängivad lastega ja loovad unustamatuid hetki, tuues peole rõõmu ja põnevust.",
         "phone": "+372 00 000 000",
         "email": "superheroes@joyspot.ee",
+        "website": "",
         "imageAlt": "Superkangelane suhtlemas põnevil lastega peol"
       },
       "glitterTattoos": {
@@ -126,7 +127,7 @@
         "info": "Sädelevad tätoveeringud on laste seas väga populaarsed! Kunstnik kaunistab laste käed ja näod lõbusate ning nahasõbralike disainidega.",
         "phone": "+372 56 909 596",
         "email": "meelika@yahoo.com",
-
+        "website": "",
         "imageAlt": "Laps näitamas oma sädelevat glitter-tätoveeringut"
       },
       "balloonMaster": {
@@ -135,7 +136,7 @@
         "info": "Õhupallimeister valmistab vahvaid loomi ja kujundeid, pakkudes lastele rõõmu ja meelelahutust läbi loomingulise tegevuse.",
         "phone": "+372 56 909 596",
         "email": "meelika@yahoo.com",
-
+        "website": "",
         "imageAlt": "Värvilised õhupalliskulptuurid ja kaunistused laste peol"
       },
       "facePainters": {
@@ -144,7 +145,7 @@
         "info": "Professionaalsed näomaalijad muudavad lapsed tiigriteks, liblikateks, piraatideks ja paljuks muuks! Kasutatakse kvaliteetseid ja nahasõbralikke värve.",
         "phone": "+372 56 909 596",
         "email": "meelika@yahoo.com",
-
+        "website": "",
         "imageAlt": "Laps kaunilt maalitud näokujundusega"
       }
     }
