@@ -12,6 +12,14 @@ const serviceTypes = [
   'facePainters',
 ];
 
+const serviceEmails = [
+  'pidu@rannikupeod.ee',
+  'meelika@yahoo.com',
+  'meelika@yahoo.com',
+  'meelika@yahoo.com',
+  'meelika@yahoo.com',
+];
+
 const getServiceImage = (type) => {
   const imageMap = {
     catering: 'Catering.jpg',
@@ -24,15 +32,21 @@ const getServiceImage = (type) => {
 };
 
 const services = computed(() =>
-  serviceTypes.map((type, index) => ({
-    id: index + 1,
-    type,
-    phone: t(`services.items.${type}.phone`),
-    email: t(`services.items.${type}.email`),
-    website: t(`services.items.${type}.website`) || null,
-    photo: getServiceImage(type),
-    imageAlt: t(`services.items.${type}.imageAlt`),
-  }))
+  serviceTypes.map((type, index) => {
+    const email = serviceEmails[index];
+    const emailKey = `services.items.${type}.email`;
+    const emailValue = email || t(emailKey);
+
+    return {
+      id: index + 1,
+      type,
+      phone: t(`services.items.${type}.phone`),
+      email: serviceEmails[index],
+      website: t(`services.items.${type}.website`) || null,
+      photo: getServiceImage(type),
+      imageAlt: t(`services.items.${type}.imageAlt`),
+    };
+  })
 );
 
 const activeAccordion = ref(null);

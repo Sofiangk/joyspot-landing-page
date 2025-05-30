@@ -108,7 +108,7 @@
         "description": "Professionaalne toitlustusteenus kõikideks teie üritusteks",
         "info": "Ranniku Peod pakub laia valikut maitsvaid roogasid peolauale. Toidud toimetatakse kohale ühekordsetes nõudes, et te ei peaks muretsema koristamise pärast – lihtsalt tulge ja nautige koos külalistega. Soovi korral saate toidud ka ise järele tulla.",
         "phone": "+372 52 322 74",
-        "email": "pidu@rannikupeod.ee",
+        "email": "pidu\\@rannikupeod.ee",
         "website": "https://rannikupeod.ee",
         "imageAlt": "Elegantsed peolauad värviliste toidukorraldusega"
       },
@@ -117,7 +117,7 @@
         "description": "Täitke oma lapse unistus tema lemmiksuperkangelasega",
         "info": "Kas soovite, et peol osaleksid Superman, Batman või Ämblikmees? Kangelased mängivad lastega ja loovad unustamatuid hetki, tuues peole rõõmu ja põnevust.",
         "phone": "+372 00 000 000",
-        "email": "superheroes@joyspot.ee",
+        "email": "superheroes\\@joyspot.ee",
         "website": "",
         "imageAlt": "Superkangelane suhtlemas põnevil lastega peol"
       },
@@ -126,7 +126,7 @@
         "description": "Sädelevad ajutised tätoveeringud, mida lapsed armastavad",
         "info": "Sädelevad tätoveeringud on laste seas väga populaarsed! Kunstnik kaunistab laste käed ja näod lõbusate ning nahasõbralike disainidega.",
         "phone": "+372 56 909 596",
-        "email": "meelika@yahoo.com",
+        "email": "meelika\\@yahoo.com",
         "website": "",
         "imageAlt": "Laps näitamas oma sädelevat glitter-tätoveeringut"
       },
@@ -135,7 +135,7 @@
         "description": "Imelised õhupalliskulptuurid ja kaunistused",
         "info": "Õhupallimeister valmistab vahvaid loomi ja kujundeid, pakkudes lastele rõõmu ja meelelahutust läbi loomingulise tegevuse.",
         "phone": "+372 56 909 596",
-        "email": "meelika@yahoo.com",
+        "email": "meelika\\@yahoo.com",
         "website": "",
         "imageAlt": "Värvilised õhupalliskulptuurid ja kaunistused laste peol"
       },
@@ -144,7 +144,7 @@
         "description": "Muudame näod kunstiteosteks",
         "info": "Professionaalsed näomaalijad muudavad lapsed tiigriteks, liblikateks, piraatideks ja paljuks muuks! Kasutatakse kvaliteetseid ja nahasõbralikke värve.",
         "phone": "+372 56 909 596",
-        "email": "meelika@yahoo.com",
+        "email": "meelika\\@yahoo.com",
         "website": "",
         "imageAlt": "Laps kaunilt maalitud näokujundusega"
       }
@@ -246,7 +246,7 @@
     "info": {
       "address": "Lõbu tänav 123, Peolinn, PT 12345",
       "phone": "(+372) 555 1234",
-      "email": "info@joyspot.ee",
+      "email": "info\\@joyspot.ee",
       "hours": "Avatud: T-P, 9:00-18:00"
     },
     "form": {

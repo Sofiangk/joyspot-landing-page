@@ -117,7 +117,7 @@
         "description": "Make your child's dream come true with their favorite superhero",
         "info": "Bring extra magic to your party with visits from Superman, Batman, or Spider-Man! These superheroes will interact with the kids, play games, and create unforgettable moments.",
         "phone": "+372 00 000 000",
-        "email": "superheroes@joyspot.ee",
+        "email": "superheroes\\@joyspot.ee",
         "website": "",
         "imageAlt": "Superhero performer interacting with excited children at a party"
       },
@@ -126,7 +126,7 @@
         "description": "Sparkly temporary tattoos that kids love",
         "info": "Children love glitter tattoos! A professional artist will decorate little arms and faces with fun, sparkly designs that are safe for the skin and easy to remove.",
         "phone": "+372 56 909 596",
-        "email": "meelika@yahoo.com",
+        "email": "meelika\\@yahoo.com",
         "website": "",
         "imageAlt": "Child showing off a sparkly glitter tattoo design"
       },
@@ -135,7 +135,7 @@
         "description": "Amazing balloon sculptures and decorations",
         "info": "Watch amazing balloon animals and shapes come to life! The Balloon Master will entertain the children with creative balloon art and fun interactions.",
         "phone": "+372 56 909 596",
-        "email": "meelika@yahoo.com",
+        "email": "meelika\\@yahoo.com",
         "website": "",
         "imageAlt": "Colorful balloon sculptures and arrangements at a children's party"
       },
@@ -144,7 +144,7 @@
         "description": "Transform faces into works of art",
         "info": "Professional face painters will turn your little guests into tigers, butterflies, pirates, and more. High-quality paints are used, safe for sensitive skin.",
         "phone": "+372 56 909 596",
-        "email": "meelika@yahoo.com",
+        "email": "meelika\\@yahoo.com",
         "website": "",
         "imageAlt": "Child with a beautifully painted face design"
       }
@@ -290,7 +290,7 @@
     "info": {
       "address": "123 Fun Street, Party Town, PT 12345",
       "phone": "(555) 123-4567",
-      "email": "info@joyspot.com",
+      "email": "",
       "hours": "Open: Tue-Sun, 9:00-18:00"
     },
     "form": {
