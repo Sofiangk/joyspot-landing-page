@@ -1,0 +1,495 @@
+{
+  "meta": {
+    "title": "JoySpot - Children's Party Hall",
+    "description": "A magical party venue designed especially for children under twelve. Create unforgettable memories in our safe and inclusive environment."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "gallery": "Gallery",
+    "services": "Services",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "booking": "Book Now",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "languageToggle": {
+      "toEstonian": "Switch to Estonian",
+      "toEnglish": "Switch to English"
+    }
+  },
+  "hero": {
+    "title": "Create Magical Memories",
+    "subtitle": "The perfect party venue for children under twelve",
+    "cta": "Book Your Party"
+  },
+  "about": {
+    "title": "Welcome to Our Children's Party Hall!",
+    "intro": "Our spacious 184 m² party hall is designed especially for children under the age of twelve. It offers a fun, safe, and inclusive environment with the following features:",
+    "features": {
+      "playroom": {
+        "title": "Playroom",
+        "description": "Equipped with a trampoline, climbing wall, jungle house, ball pit, and a variety of soft toys, including sensory toys for children with special needs."
+      },
+      "joycraft": {
+        "title": "JoyCraft Corner",
+        "description": "A supervised creative space where children can enjoy hands-on activities like planting seeds or decorating cupcakes."
+      },
+      "vr": {
+        "title": "VR Room",
+        "description": "A room with screens for virtual reality games and digital fun."
+      },
+      "dining": {
+        "title": "Dining Area",
+        "description": "A cozy place for hosting birthday parties, family gatherings, and group celebrations."
+      }
+    },
+    "perfect_for": {
+      "title": "Our Hall Is Perfect For",
+      "items": {
+        "birthdays": {
+          "title": "Children's Birthday Parties",
+          "description": "Ages 4-12"
+        },
+        "school": {
+          "title": "School Class Events",
+          "description": "& Celebrations"
+        },
+        "family": {
+          "title": "Private Family Gatherings",
+          "description": "Special moments together"
+        },
+        "special": {
+          "title": "Special Occasions",
+          "description": "& Holidays"
+        }
+      }
+    },
+    "important_notes": {
+      "arrival": "Please arrive 15 minutes early to set up before your party begins.",
+      "privacy": "We host one party at a time, so your group will enjoy full privacy during the event.",
+      "private_visits": "When the hall is not booked for parties, we welcome private visits. Parents can bring their children and friends to play in a safe and engaging environment. For private visits, please contact us in advance to schedule your session."
+    }
+  },
+  "features": {
+    "title": "Why Choose JoySpot",
+    "subtitle": "Creating Safe and Memorable Experiences",
+    "items": {
+      "safe": {
+        "title": "Safe Environment",
+        "description": "State-of-the-art safety features and trained supervision"
+      },
+      "themed": {
+        "title": "Themed Rooms",
+        "description": "Customizable party spaces for any theme"
+      },
+      "staff": {
+        "title": "Professional Staff",
+        "description": "Dedicated party coordinators and entertainers"
+      },
+      "packages": {
+        "title": "All-Inclusive Packages",
+        "description": "Everything you need for the perfect party"
+      }
+    }
+  },
+  "gallery": {
+    "title": "Our Gallery",
+    "subtitle": "Take a peek at the fun that awaits"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "We work with the best partners to make your event unforgettable",
+    "additionalInfo": "Additional Information",
+    "contact": "Contact",
+    "items": {
+      "catering": {
+        "title": "Catering – Costal Parties",
+        "description": "Professional catering services for all your party needs",
+        "info": "Costal Parties offers a variety of delicious meal options for your party. You can choose your favorite dishes, which will be delivered in disposable containers—making cleanup easy and letting you enjoy the event stress-free. If you prefer, you can also pick up the meals yourself.",
+        "phone": "+372 52 322 74",
+        "email": "pidu@rannikupeod.ee",
+        "website": "https://rannikupeod.ee",
+        "imageAlt": "Elegant party platters with colorful food arrangements"
+      },
+      "superheroes": {
+        "title": "Superhero Appearances",
+        "description": "Make your child's dream come true with their favorite superhero",
+        "info": "Bring extra magic to your party with visits from Superman, Batman, or Spider-Man! These superheroes will interact with the kids, play games, and create unforgettable moments.",
+        "phone": "+372 00 000 000",
+        "email": "superheroes@joyspot.ee",
+        "website": "",
+        "imageAlt": "Superhero performer interacting with excited children at a party"
+      },
+      "glitterTattoos": {
+        "title": "Glitter Tattoos",
+        "description": "Sparkly temporary tattoos that kids love",
+        "info": "Children love glitter tattoos! A professional artist will decorate little arms and faces with fun, sparkly designs that are safe for the skin and easy to remove.",
+        "phone": "+372 56 909 596",
+        "email": "meelika@yahoo.com",
+        "website": "",
+        "imageAlt": "Child showing off a sparkly glitter tattoo design"
+      },
+      "balloonMaster": {
+        "title": "Balloon Master",
+        "description": "Amazing balloon sculptures and decorations",
+        "info": "Watch amazing balloon animals and shapes come to life! The Balloon Master will entertain the children with creative balloon art and fun interactions.",
+        "phone": "+372 56 909 596",
+        "email": "meelika@yahoo.com",
+        "website": "",
+        "imageAlt": "Colorful balloon sculptures and arrangements at a children's party"
+      },
+      "facePainters": {
+        "title": "Face Painters",
+        "description": "Transform faces into works of art",
+        "info": "Professional face painters will turn your little guests into tigers, butterflies, pirates, and more. High-quality paints are used, safe for sensitive skin.",
+        "phone": "+372 56 909 596",
+        "email": "meelika@yahoo.com",
+        "website": "",
+        "imageAlt": "Child with a beautifully painted face design"
+      }
+    }
+  },
+  "booking": {
+    "title": "Book Your Party",
+    "subtitle": "Let's Create an Unforgettable Celebration",
+    "selectDate": "Select Date",
+    "partyDetails": "Party Details",
+    "summary": "Summary",
+    "selectYourDate": "Select Your Date",
+    "available": "Available",
+    "booked": "Booked",
+    "past": "Past",
+    "availableTimeSlots": "Available Time Slots",
+    "form": {
+      "name": "Contact Name",
+      "email": "Email",
+      "phone": "Phone",
+      "childName": "Child's Name",
+      "childAge": "Child's Age",
+      "notes": "Special Requests",
+      "submit": "Book Now",
+      "namePlaceholder": "Enter your full name",
+      "emailPlaceholder": "Enter your email address",
+      "phonePlaceholder": "Enter your phone number",
+      "childNamePlaceholder": "Enter the birthday child's name",
+      "childAgePlaceholder": "Enter the child's age",
+      "notesPlaceholder": "Any special requests or notes",
+      "success": "Thank you for your booking! We'll contact you shortly to confirm the details.",
+      "error": "There was an error processing your booking. Please try again.",
+      "errors": {
+        "nameRequired": "Name is required",
+        "invalidEmail": "Invalid email address",
+        "invalidPhone": "Invalid phone number",
+        "childNameRequired": "Child's name is required",
+        "childAgeRequired": "Child's age is required"
+      }
+    },
+    "terms": "By booking, you agree to our Terms of Service and Cancellation Policy",
+    "additionalServices": {
+      "title": "Additional Services",
+      "vrRoom": "VR Room",
+      "catering": "Catering",
+      "facePainting": "Face Painting",
+      "glitterTattoos": "Glitter Tattoos",
+      "balloonMaster": "Balloon Master",
+      "livePerformance": "Live Performance",
+      "superheroes": "Superheroes",
+      "cleaning": "Cleaning Service"
+    },
+    "payment": {
+      "securePayment": "Secure Payment",
+      "completeBooking": "Complete your booking by making a secure payment.",
+      "totalAmount": "Total Amount",
+      "cardNumber": "Card Number",
+      "cardNumberPlaceholder": "1234 5678 9012 3456",
+      "cardHolder": "Card Holder",
+      "expiryDate": "Expiry Date",
+      "cardCvv": "CVV",
+      "confirmPayment": "Confirm Payment",
+      "cancel": "Cancel",
+      "errors": {
+        "invalidCardHolder": "Invalid card holder name",
+        "invalidCardNumber": "Invalid card number",
+        "invalidExpiryDate": "Invalid expiry date",
+        "invalidCvv": "Invalid CVV"
+      }
+    },
+    "summary": {
+      "title": "Booking Summary",
+      "date": "Date",
+      "time": "Time",
+      "basePrice": "Base Price",
+      "vrRoom": "VR Room",
+      "additionalServices": "Additional Services",
+      "total": "Total",
+      "confirm": "Confirm Booking"
+    },
+    "yourInformation": "Your Information",
+    "contactInformation": "Contact Information",
+    "specialRequests": "Special Requests",
+    "priceBreakdown": "Price Breakdown",
+    "continueToSummary": "Continue to Summary",
+    "back": "Back",
+    "bookingSummary": "Booking Summary",
+    "goBack": "Go Back",
+    "confirmProceed": "Confirm & Proceed",
+    "total": "Total"
+  },
+  "pricing": {
+    "title": "Prices",
+    "subtitle": "Choose the perfect time slot for your celebration",
+    "basePackage": "Playroom + JoyCraft Corner",
+    "baseRooms": "(1 hour)",
+    "vrRoomAddon": "VR Room",
+    "whatsIncluded": "What's Included in Every Package",
+    "amazingPlayground": "Amazing Playground",
+    "playgroundDesc": "Trampoline, climbing wall, ball pit, and sensory toys for endless fun",
+    "creativeCraftingRoom": "Creative Crafting Room",
+    "craftingDesc": "Hands-on activities like planting seeds and decorating cupcakes",
+    "enhanceParty": "Enhance your party with these additional services",
+    "vrRoomAddonDesc": "Add virtual reality experiences to your party",
+    "cleaningService": {
+      "title": "Cleaning Service: €50",
+      "description": "Includes tidying the playroom, washing dishes used on-site, and cleaning tables in the dining area.",
+      "note": "Please note: this does not include the cleaning of items you bring yourself (such as food or disposable tableware)."
+    },
+    "privateVisit": {
+      "title": "Private Visit",
+      "description": "A private visit lasts 2.5 hours and does not include the JoyCraft Corner activities.",
+      "playroom": {
+        "title": "Playroom",
+        "price": "Starting from €30 (includes up to 3 children)",
+        "additional": "+€10 per additional child"
+      },
+      "vrRoom": {
+        "title": "VR Room",
+        "price": "Starting from €45 (includes up to 3 children)",
+        "additional": "+€15 per additional child"
+      },
+      "note": "Please contact us in advance to arrange your private visit."
+    },
+    "timeSlots": {
+      "morning": "11:00–13:30",
+      "afternoon": "14:30–17:00",
+      "evening": "18:00–20:30",
+      "weekend": "All time slots available"
+    },
+    "prices": {
+      "weekdayBase": "€125",
+      "weekdayVR": "€75",
+      "eveningBase": "€165",
+      "eveningVR": "€100",
+      "weekendBase": "€165",
+      "weekendVR": "€100"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We'd love to hear from you",
+    "info": {
+      "address": "123 Fun Street, Party Town, PT 12345",
+      "phone": "(555) 123-4567",
+      "email": "info@joyspot.com",
+      "hours": "Open: Tue-Sun, 9:00-18:00"
+    },
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "message": "Your Message",
+      "submit": "Send Message",
+      "success": "Thank you for your message! We'll get back to you soon.",
+      "error": "There was an error sending your message. Please try again.",
+      "processing": "Processing..."
+    }
+  },
+  "footer": {
+    "about": {
+      "title": "About JoySpot",
+      "description": "Creating magical memories for children and families in our safe and inclusive party venue."
+    },
+    "quickLinks": {
+      "title": "Quick Links"
+    },
+    "newsletter": {
+      "title": "Stay Updated",
+      "description": "Subscribe to our newsletter for special offers and updates",
+      "placeholder": "Enter your email",
+      "button": "Subscribe",
+      "success": "Thank you for subscribing!",
+      "error": "There was an error. Please try again."
+    },
+    "rights": "© 2024 JoySpot. All rights reserved.",
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use",
+      "accessibility": "Accessibility"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "How we collect, use, and protect your information",
+    "dataCollection": {
+      "title": "Information We Collect",
+      "description": "We collect various types of information to provide and improve our services:",
+      "items": {
+        "personal": "Personal information (name, age, preferences)",
+        "contact": "Contact details (email, phone number)",
+        "payment": "Payment information (processed securely)",
+        "usage": "Usage data (website interactions, bookings)"
+      }
+    },
+    "dataUse": {
+      "title": "How We Use Your Information",
+      "description": "Your information helps us provide better services:",
+      "items": {
+        "bookings": "Process and manage party bookings",
+        "communication": "Send important updates and notifications",
+        "improvement": "Improve our services and user experience",
+        "legal": "Comply with legal obligations"
+      }
+    },
+    "dataSecurity": {
+      "title": "Data Security",
+      "description": "We implement strict security measures to protect your personal information from unauthorized access, alteration, or disclosure."
+    },
+    "cookies": {
+      "title": "Cookies and Tracking",
+      "description": "We use cookies and similar technologies to enhance your browsing experience and analyze website usage."
+    },
+    "rights": {
+      "title": "Your Rights",
+      "description": "You have several rights regarding your personal data:",
+      "items": {
+        "access": "Right to access your personal data",
+        "rectification": "Right to correct inaccurate information",
+        "deletion": "Right to request data deletion",
+        "portability": "Right to data portability"
+      }
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "If you have any questions about our privacy policy, please contact us at privacy@joyspot.ee"
+    }
+  },
+  "terms": {
+    "title": "Terms of Use",
+    "subtitle": "Please read these terms carefully before using our services",
+    "bookings": {
+      "title": "Booking Conditions",
+      "items": {
+        "reservation": "The €50 booking fee can be paid in euros via a secure bank link. Payments are processed by PayCly, which receives only the personal information required to complete the payment.",
+        "payment": "The booking fee is non-refundable, but it will be deducted from the final amount. A confirmation email will be sent once payment is received.",
+        "cancellation": "Cancellations are not allowed, as the reservation includes specific equipment and scheduled time that are difficult to rebook on short notice.",
+        "modifications": "If you need to reschedule, please let us know as early as possible. The booking can be changed once."
+      }
+    },
+    "hallRules": {
+      "title": "Hall Rules",
+      "items": {
+        "applicability": "These house rules apply to everyone present on the premises of JoySpot.",
+        "duration": "The hall (184 m²) is available for 2.5 hours. You may arrive 15 minutes early to prepare.",
+        "cleaning": "After your party, the hall should be returned to its original condition: toys tidied, dishes cleaned, and garbage disposed of.",
+        "cleaningFee": "If the room is not cleaned, we may issue a cleaning invoice (€50).",
+        "overtime": "Please vacate the premises on time. Extra time may be charged."
+      }
+    },
+    "kitchen": {
+      "title": "Kitchen & Dining Area",
+      "items": {
+        "seating": "Seats are available for 30 guests.",
+        "equipment": "The kitchen includes: espresso machine, kettle, microwave, refrigerator, serving bowls, trays, pitchers, 10 mugs, serving cutlery, cake utensils, and flower vases.",
+        "provided": "We provide: coffee beans, tea, sugar, and water dispenser access.",
+        "tableware": "Please bring your own disposable tableware.",
+        "restrictions": "Use kitchen items only in the dining area — not in the playroom.",
+        "candles": "Cake candles are allowed, but no cake fountains, fireworks, or other pyrotechnics."
+      }
+    },
+    "furnishings": {
+      "title": "Furnishings & Toys",
+      "items": {
+        "care": "Please treat all toys and furnishings with care. Return everything to its place after the party.",
+        "damage": "If any item is damaged, inform us so we can agree on a solution.",
+        "equipment": "Only adults may handle audio, lighting, and technical equipment."
+      }
+    },
+    "safety": {
+      "title": "Safety",
+      "items": {
+        "supervision": "The adult who booked the hall must remain present throughout the event and is responsible for children's safety and proper use of the facilities.",
+        "youngChildren": "Children under 3 years old must be accompanied by an adult at all times due to small parts in the play area.",
+        "climbing": "Climbing on windows, railings, or roofs is not allowed. All play structures must be used appropriately.",
+        "gum": "No chewing gum is allowed in the hall.",
+        "pets": "Pets are not allowed."
+      }
+    },
+    "maintenance": {
+      "title": "Maintenance",
+      "items": {
+        "smoking": "Smoking and alcohol are not allowed inside the hall.",
+        "liability": "JoySpot is not responsible for lost clothing or personal items.",
+        "foodDrinks": "Please do not bring food or drinks into the playroom or VR room. These are only allowed in the dining area."
+      }
+    },
+    "additionalServices": {
+      "title": "Additional Services",
+      "items": {
+        "arrangement": "Additional services should be pre-arranged via email or phone.",
+        "cleaning": "If you would like to use our cleaning service, please inform us when booking.",
+        "cleaningIncludes": "The service includes: putting toys back in place, washing local dishes, and cleaning dining tables.",
+        "hostResponsibility": "The party host is responsible for removing all items brought in, such as food and disposable tableware.",
+        "external": "If you book external catering or entertainers, kindly let us know in advance."
+      }
+    }
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "intro": "JoySpot OÜ values your privacy and is committed to protecting your personal data. This Privacy Policy explains how we collect, use, and safeguard your personal information when you use our online booking system. By making a booking, you confirm that you have read and understood the terms of this policy.",
+    "dataController": {
+      "title": "Data Controller",
+      "content": "JoySpot OÜ is the controller of your personal data. For the purpose of processing payments, we share the necessary information with our payment service provider, PayCly."
+    },
+    "dataCollection": {
+      "title": "What Personal Data We Collect",
+      "intro": "When booking the JoySpot party hall through our online booking system, we collect the following personal data directly from you:",
+      "items": {
+        "childName": "Name of the birthday child(ren)",
+        "parentName": "Name of the parent or guardian",
+        "phone": "Contact phone number",
+        "email": "Email address"
+      },
+      "necessity": "Providing this data is necessary for us to process your booking and deliver our services. Without this information, we may be unable to confirm your reservation or provide access to the hall."
+    },
+    "legalBasis": {
+      "title": "Legal Basis for Processing",
+      "intro": "We process your personal data to:",
+      "items": {
+        "booking": "Make and manage your booking",
+        "communication": "Communicate with you about your reservation",
+        "contract": "Fulfill our obligations under the contract we form upon your booking"
+      },
+      "conclusion": "This processing is necessary for the performance of a contract between you and JoySpot OÜ."
+    },
+    "security": {
+      "title": "Data Access and Security",
+      "access": "Your personal data is only accessed by authorized JoySpot personnel who are responsible for managing bookings and delivering services. If required by law, we may also share your data with public authorities.",
+      "transfer": "We do not transfer your data outside of Estonia.",
+      "measures": "JoySpot uses appropriate technical and organizational measures to protect your data from unauthorized access, loss, or misuse. If third-party service providers are involved, we ensure that they meet similar data protection standards."
+    },
+    "retention": {
+      "title": "Data Retention",
+      "content": "We retain your personal data only for as long as necessary to provide our services or as required by applicable law."
+    },
+    "rights": {
+      "title": "Your Rights",
+      "intro": "You have the following rights regarding your personal data:",
+      "items": {
+        "access": "The right to access the personal data we hold about you",
+        "correction": "The right to correct inaccurate or incomplete data",
+        "deletion": "The right to request deletion of your data",
+        "restriction": "The right to restrict or object to the processing of your data (within legal limits)"
+      },
+      "contact": "To exercise these rights or if you have any questions, please contact us at info@joyspot.ee"
+    }
+  }
+}

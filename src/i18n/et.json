@@ -1,0 +1,489 @@
+{
+  "meta": {
+    "title": "JoySpot - Laste Peokoht",
+    "description": "Maagiline peokoht, mis on loodud spetsiaalselt alla kaheteistkümneaastastele lastele. Looge unustamatud mälestused meie turvalises ja kaasavas keskkonnas."
+  },
+  "nav": {
+    "home": "Avaleht",
+    "about": "Meist",
+    "gallery": "Galerii",
+    "services": "Teenused",
+    "pricing": "Hinnad",
+    "contact": "Kontakt",
+    "booking": "Broneeri",
+    "privacy": "Privaatsuspoliitika",
+    "terms": "Kasutustingimused",
+    "languageToggle": {
+      "toEstonian": "Vaheta eesti keelele",
+      "toEnglish": "Vaheta inglise keelele"
+    }
+  },
+  "hero": {
+    "title": "Looge Maagilisi Mälestusi",
+    "subtitle": "Täiuslik peokoht alla kaheteistkümneaastastele lastele",
+    "cta": "Broneeri Pidu"
+  },
+  "about": {
+    "title": "Tere tulemast meie lastepeosaali!",
+    "intro": "Meie avar 184 m² suurune saal on mõeldud alla 12-aastastele lastele. See pakub lõbusat, turvalist ja kaasavat keskkonda järgmiste võimalustega:",
+    "features": {
+      "playroom": {
+        "title": "Mängutuba",
+        "description": "Varustatud batuudi, ronimisseina, džunglimaja, pallibasseini ja erinevate pehmete mänguasjadega, sealhulgas sensoorsete mänguasjadega erivajadustega lastele."
+      },
+      "joycraft": {
+        "title": "JoyCraft Corner",
+        "description": "Loov nurk (juhendatud), kus lapsed saavad istutada seemneid, kaunistada muffineid ja osaleda muudes käelistes tegevustes."
+      },
+      "vr": {
+        "title": "VR-tuba",
+        "description": "Ekraanidega varustatud ruum virtuaalreaalsuse mängude ja digitaalse meelelahutuse jaoks."
+      },
+      "dining": {
+        "title": "Söögituba",
+        "description": "Hubane ala sünnipäevade, peresündmuste ja seltskondlike koosviibimiste korraldamiseks."
+      }
+    },
+    "perfect_for": {
+      "title": "Meie Saal Sobib Suurepäraselt",
+      "items": {
+        "birthdays": {
+          "title": "Laste Sünnipäevapeod",
+          "description": "Vanuses 4-12"
+        },
+        "school": {
+          "title": "Kooliüritused",
+          "description": "ja Tähistamised"
+        },
+        "family": {
+          "title": "Pere Koosviibimised",
+          "description": "Erilised hetked koos"
+        },
+        "special": {
+          "title": "Erilised Sündmused",
+          "description": "ja Pühad"
+        }
+      }
+    },
+    "important_notes": {
+      "arrival": "Palume saabuda 15 minutit varem ettevalmistuste tegemiseks enne peo algust.",
+      "privacy": "Meie saalis toimub üks pidu korraga, nii et teie seltskond saab nautida täielikku privaatsust.",
+      "private_visits": "Kui saal ei ole peoks broneeritud, võtame vastu eralisi külastusi. Vanemad võivad tulla koos laste ja sõpradega mängima. Selleks palume eelnevalt ühendust võtta ja aeg kokku leppida."
+    }
+  },
+  "features": {
+    "title": "Miks Valida JoySpot",
+    "subtitle": "Loome turvalisi ja meeldejäävaid elamusi",
+    "items": {
+      "safe": {
+        "title": "Turvaline Keskkond",
+        "description": "Kaasaegsed turvafunktsioonid ja koolitatud järelevalve"
+      },
+      "themed": {
+        "title": "Temaatilised Ruumid",
+        "description": "Kohandatavad peopaigad iga teema jaoks"
+      },
+      "staff": {
+        "title": "Professionaalne Personal",
+        "description": "Pühendunud peokorraldajad ja meelelahutajad"
+      },
+      "packages": {
+        "title": "Kõik-Kaasas Paketid",
+        "description": "Kõik vajalik täiusliku peo jaoks"
+      }
+    }
+  },
+  "gallery": {
+    "title": "Meie Galerii",
+    "subtitle": "Heida pilk ootavale lõbule"
+  },
+  "services": {
+    "title": "Meie Teenused",
+    "subtitle": "Teeme koostööd parimate partneritega, et muuta teie üritus unustamatuks",
+    "additionalInfo": "Lisainfo",
+    "contact": "Kontakt",
+    "items": {
+      "catering": {
+        "title": "Catering – Ranniku Peod",
+        "description": "Professionaalne toitlustusteenus kõikideks teie üritusteks",
+        "info": "Ranniku Peod pakub laia valikut maitsvaid roogasid peolauale. Toidud toimetatakse kohale ühekordsetes nõudes, et te ei peaks muretsema koristamise pärast – lihtsalt tulge ja nautige koos külalistega. Soovi korral saate toidud ka ise järele tulla.",
+        "phone": "+372 52 322 74",
+        "email": "pidu@rannikupeod.ee",
+        "website": "https://rannikupeod.ee",
+        "imageAlt": "Elegantsed peolauad värviliste toidukorraldusega"
+      },
+      "superheroes": {
+        "title": "Superkangelased",
+        "description": "Täitke oma lapse unistus tema lemmiksuperkangelasega",
+        "info": "Kas soovite, et peol osaleksid Superman, Batman või Ämblikmees? Kangelased mängivad lastega ja loovad unustamatuid hetki, tuues peole rõõmu ja põnevust.",
+        "phone": "+372 00 000 000",
+        "email": "superheroes@joyspot.ee",
+        "imageAlt": "Superkangelane suhtlemas põnevil lastega peol"
+      },
+      "glitterTattoos": {
+        "title": "Glitter-tätoveeringud",
+        "description": "Sädelevad ajutised tätoveeringud, mida lapsed armastavad",
+        "info": "Sädelevad tätoveeringud on laste seas väga populaarsed! Kunstnik kaunistab laste käed ja näod lõbusate ning nahasõbralike disainidega.",
+        "phone": "+372 56 909 596",
+        "email": "meelika@yahoo.com",
+
+        "imageAlt": "Laps näitamas oma sädelevat glitter-tätoveeringut"
+      },
+      "balloonMaster": {
+        "title": "Õhupallimeister",
+        "description": "Imelised õhupalliskulptuurid ja kaunistused",
+        "info": "Õhupallimeister valmistab vahvaid loomi ja kujundeid, pakkudes lastele rõõmu ja meelelahutust läbi loomingulise tegevuse.",
+        "phone": "+372 56 909 596",
+        "email": "meelika@yahoo.com",
+
+        "imageAlt": "Värvilised õhupalliskulptuurid ja kaunistused laste peol"
+      },
+      "facePainters": {
+        "title": "Näomaalingud",
+        "description": "Muudame näod kunstiteosteks",
+        "info": "Professionaalsed näomaalijad muudavad lapsed tiigriteks, liblikateks, piraatideks ja paljuks muuks! Kasutatakse kvaliteetseid ja nahasõbralikke värve.",
+        "phone": "+372 56 909 596",
+        "email": "meelika@yahoo.com",
+
+        "imageAlt": "Laps kaunilt maalitud näokujundusega"
+      }
+    }
+  },
+  "pricing": {
+    "title": "Hinnad",
+    "subtitle": "Vali oma tähistamiseks sobiv aeg",
+    "basePackage": "Mängutuba + JoyCraft Corner",
+    "baseRooms": "(1 tund)",
+    "vrRoomAddon": "VR-tuba",
+    "whatsIncluded": "Mis kuulub iga paketi sisse",
+    "amazingPlayground": "Vahva Mänguväljak",
+    "playgroundDesc": "Batuut, ronimissein, pallimeri ja sensoorsed mänguasjad lõputuks lõbuks",
+    "creativeCraftingRoom": "Loov Meisterdamistuba",
+    "craftingDesc": "Käelised tegevused nagu seemnete istutamine ja muffinite kaunistamine",
+    "enhanceParty": "Lisa oma peole järgmised teenused",
+    "vrRoomAddonDesc": "Lisa virtuaalreaalsuse elamused oma peole",
+    "cleaningService": {
+      "title": "Koristusteenus: 50 €",
+      "description": "Sisaldab mängutoa korrastamist, kohapeal kasutatud nõude pesemist ja söögilaua puhastamist.",
+      "note": "Pange tähele: teie poolt kaasa toodud esemed (nt toit või ühekordsed nõud) ei kuulu koristusteenuse hulka."
+    },
+    "privateVisit": {
+      "title": "Privaatne Külastus",
+      "description": "Privaatne külastus kestab 2,5 tundi ja ei sisalda JoyCraft corner tegevusi.",
+      "playroom": {
+        "title": "Mängutuba",
+        "price": "Alates 30 € (kuni 3 last)",
+        "additional": "+10 € iga lisalaps"
+      },
+      "vrRoom": {
+        "title": "VR-tuba",
+        "price": "Alates 45 € (kuni 3 last)",
+        "additional": "+15 € iga lisalaps"
+      },
+      "note": "Palume privaatkülastus eelnevalt kokku leppida."
+    },
+    "timeSlots": {
+      "morning": "11:00–13:30",
+      "afternoon": "14:30–17:00",
+      "evening": "18:00–20:30",
+      "weekend": "Kõik ajad saadaval"
+    },
+    "prices": {
+      "weekdayBase": "125 €",
+      "weekdayVR": "75 €",
+      "eveningBase": "165 €",
+      "eveningVR": "100 €",
+      "weekendBase": "165 €",
+      "weekendVR": "100 €"
+    },
+    "cleaning": {
+      "title": "Koristusteenus",
+      "price": "50 €",
+      "description": "Sisaldab mängutoa korrastamist, kohapeal kasutatud nõude pesemist ja söögilaua puhastamist"
+    },
+    "payment": {
+      "securePayment": "Turvaline Makse",
+      "completeBooking": "Broneeri oma pidu turvaliselt maksma.",
+      "totalAmount": "Kokku summa",
+      "cardNumber": "Kortinumber",
+      "cardNumberPlaceholder": "1234 5678 9012 3456",
+      "cardHolder": "Korti omaniku nimi",
+      "expiryDate": "Korti aegumine",
+      "cardCvv": "Korti turvakood",
+      "confirmPayment": "Kinnita Makse",
+      "cancel": "Tühista",
+      "errors": {
+        "invalidCardHolder": "Vigane kortiomaniku nimi",
+        "invalidCardNumber": "Vigane kortinumber",
+        "invalidExpiryDate": "Vigane korti aegumine",
+        "invalidCvv": "Vigane CVV"
+      }
+    },
+    "summary": {
+      "title": "Broneeringu Kokkuvõte",
+      "date": "Kuupäev",
+      "time": "Kellaaeg",
+      "basePrice": "Põhihind",
+      "vrRoom": "VR-tuba",
+      "additionalServices": "Lisateenused",
+      "total": "Kokku",
+      "confirm": "Kinnita Broneering"
+    },
+    "yourInformation": "Sinu Informatsioon",
+    "contactInformation": "Kontaktandmed",
+    "specialRequests": "Erisoovidmärkused",
+    "priceBreakdown": "Hinna Ülevaade",
+    "continueToSummary": "Jätka Kokkuvõttega",
+    "back": "Tagasi",
+    "bookingSummary": "Broneeringu Kokkuvõte",
+    "goBack": "Mine Tagasi",
+    "confirmProceed": "Kinnita ja Jätka"
+  },
+  "contact": {
+    "title": "Võta Meiega Ühendust",
+    "subtitle": "Meil on hea meel sinult kuulda",
+    "info": {
+      "address": "Lõbu tänav 123, Peolinn, PT 12345",
+      "phone": "(+372) 555 1234",
+      "email": "info@joyspot.ee",
+      "hours": "Avatud: T-P, 9:00-18:00"
+    },
+    "form": {
+      "name": "Sinu Nimi",
+      "email": "Sinu E-post",
+      "message": "Sinu Sõnum",
+      "submit": "Saada Sõnum",
+      "success": "Täname sõnumi eest! Võtame sinuga peagi ühendust.",
+      "error": "Sõnumi saatmisel tekkis viga. Palun proovi uuesti.",
+      "processing": "Töötlemine..."
+    }
+  },
+  "footer": {
+    "about": {
+      "title": "JoySpot-ist",
+      "description": "Loome maagilisi mälestusi lastele ja peredele meie turvalises ja kaasavas peokohas."
+    },
+    "quickLinks": {
+      "title": "Kiirlingid"
+    },
+    "newsletter": {
+      "title": "Püsi Kursis",
+      "description": "Telli meie uudiskiri eripakkumiste ja uuenduste saamiseks",
+      "placeholder": "Sisesta oma e-post",
+      "button": "Telli",
+      "success": "Täname tellimise eest!",
+      "error": "Tekkis viga. Palun proovi uuesti."
+    },
+    "rights": "© 2024 JoySpot. Kõik õigused kaitstud.",
+    "links": {
+      "privacy": "Privaatsuspoliitika",
+      "terms": "Kasutustingimused",
+      "accessibility": "Ligipääsetavus"
+    }
+  },
+  "booking": {
+    "title": "Broneeri Pidu",
+    "subtitle": "Loome Unustamatu Tähistamise",
+    "selectDate": "Vali Kuupäev",
+    "partyDetails": "Peo Detailid",
+    "summary": "Kokkuvõte",
+    "selectYourDate": "Vali Oma Kuupäev",
+    "available": "Vaba",
+    "booked": "Broneeritud",
+    "past": "Möödas",
+    "availableTimeSlots": "Vabad Ajad",
+    "form": {
+      "name": "Kontaktisiku Nimi",
+      "email": "E-post",
+      "phone": "Telefon",
+      "childName": "Lapse Nimi",
+      "childAge": "Lapse Vanus",
+      "notes": "Erisoovidmärkused",
+      "submit": "Broneeri Koht",
+      "namePlaceholder": "Sisesta oma täisnimi",
+      "emailPlaceholder": "Sisesta oma e-posti aadress",
+      "phonePlaceholder": "Sisesta oma telefoninumber",
+      "childNamePlaceholder": "Sisesta sünnipäevalapse nimi",
+      "childAgePlaceholder": "Sisesta lapse vanus",
+      "notesPlaceholder": "Erisoovidmärkused või lisainfo",
+      "success": "Täname broneeringu eest! Võtame teiega peagi ühendust detailide kinnitamiseks.",
+      "error": "Broneeringu tegemisel tekkis viga. Palun proovige uuesti.",
+      "errors": {
+        "nameRequired": "Nimi on kohustuslik",
+        "invalidEmail": "Vigane e-posti aadress",
+        "invalidPhone": "Vigane telefoninumber",
+        "childNameRequired": "Lapse nimi on kohustuslik",
+        "childAgeRequired": "Lapse vanus on kohustuslik"
+      }
+    },
+    "terms": "Broneerides nõustute meie teenuste tingimuste ja tühistamispoliitikaga",
+    "additionalServices": {
+      "title": "Lisateenused",
+      "vrRoom": "VR-tuba",
+      "catering": "Toitlustus",
+      "facePainting": "Näomaalingud",
+      "glitterTattoos": "Sädelevad Tätoveeringud",
+      "balloonMaster": "Õhupallimeister",
+      "livePerformance": "Elav Esinemine",
+      "superheroes": "Superkangelased",
+      "cleaning": "Koristusteenus"
+    },
+    "payment": {
+      "securePayment": "Turvaline Makse",
+      "completeBooking": "Broneeri oma pidu turvaliselt maksma.",
+      "totalAmount": "Kokku summa",
+      "cardNumber": "Kortinumber",
+      "cardNumberPlaceholder": "1234 5678 9012 3456",
+      "cardHolder": "Korti omaniku nimi",
+      "expiryDate": "Korti aegumine",
+      "cardCvv": "Korti turvakood",
+      "confirmPayment": "Kinnita Makse",
+      "cancel": "Tühista",
+      "errors": {
+        "invalidCardHolder": "Vigane kortiomaniku nimi",
+        "invalidCardNumber": "Vigane kortinumber",
+        "invalidExpiryDate": "Vigane korti aegumine",
+        "invalidCvv": "Vigane CVV"
+      }
+    },
+    "summary": {
+      "title": "Broneeringu Kokkuvõte",
+      "date": "Kuupäev",
+      "time": "Kellaaeg",
+      "basePrice": "Põhihind",
+      "vrRoom": "VR-tuba",
+      "additionalServices": "Lisateenused",
+      "total": "Kokku",
+      "confirm": "Kinnita Broneering"
+    },
+    "yourInformation": "Sinu Informatsioon",
+    "contactInformation": "Kontaktandmed",
+    "specialRequests": "Erisoovidmärkused",
+    "priceBreakdown": "Hinna Ülevaade",
+    "continueToSummary": "Jätka Kokkuvõttega",
+    "back": "Tagasi",
+    "bookingSummary": "Broneeringu Kokkuvõte",
+    "goBack": "Mine Tagasi",
+    "confirmProceed": "Kinnita ja Jätka"
+  },
+  "privacyPolicy": {
+    "title": "Privaatsuspoliitika",
+    "intro": "JoySpot OÜ väärtustab teie privaatsust ja on pühendunud teie isikuandmete kaitsmisele. Käesolev privaatsuspoliitika selgitab, kuidas me kogume, kasutame ja kaitseme teie isikuandmeid, kui kasutate meie veebipõhist broneerimissüsteemi. Broneeringu tegemisel kinnitate, et olete tutvunud käesoleva poliitika tingimustega ja saate neist aru.",
+    "dataController": {
+      "title": "Vastutav töötleja",
+      "content": "JoySpot OÜ on teie isikuandmete vastutav töötleja. Maksete töötlemiseks edastame vajaliku info meie makseteenuse pakkujale PayCly."
+    },
+    "dataCollection": {
+      "title": "Kogutavad isikuandmed",
+      "intro": "Me kogume järgmisi isikuandmeid otse teilt, kui teete broneeringu meie mängutoa broneerimissüsteemi kaudu:",
+      "items": {
+        "childName": "Sünnipäevalapse/laste nimi",
+        "parentName": "Vanema või eestkostja nimi",
+        "phone": "Telefoni number",
+        "email": "E-posti aadress"
+      },
+      "necessity": "Nende andmete esitamine on vajalik, et saaksime teie broneeringu kinnitada ja teenust osutada. Ilma nende andmeteta ei pruugi me olla võimelised broneeringut kinnitama ega saali kasutamist võimaldama."
+    },
+    "legalBasis": {
+      "title": "Isikuandmete töötlemise õiguslik alus",
+      "intro": "Me töötleme teie isikuandmeid selleks, et:",
+      "items": {
+        "booking": "Teha ja hallata teie broneeringut",
+        "communication": "Suhelda teiega seoses broneeringuga",
+        "contract": "Täita meie lepingulisi kohustusi, mis tekivad broneeringu tegemisel"
+      },
+      "conclusion": "Selline töötlemine on vajalik teie ja JoySpot OÜ vahelise lepingu täitmiseks."
+    },
+    "security": {
+      "title": "Andmetele juurdepääs ja turvalisus",
+      "access": "Teie isikuandmetele pääsevad ligi ainult need JoySpot töötajad, kes vastutavad broneeringute haldamise ja teenuste osutamise eest. Kui seadus seda nõuab, võime teie andmeid jagada ka ametiasutustega.",
+      "transfer": "Me ei edasta teie isikuandmeid väljapoole Eestit.",
+      "measures": "JoySpot rakendab sobivaid tehnilisi ja organisatsioonilisi meetmeid teie isikuandmete kaitsmiseks volitamata juurdepääsu, kadumise või väärkasutuse eest. Kui kasutame teenusepakkujatena kolmandaid osapooli, tagame enne, et nad järgivad samaväärseid turvanõudeid."
+    },
+    "retention": {
+      "title": "Andmete säilitamine",
+      "content": "Me säilitame teie isikuandmeid ainult nii kaua, kui see on vajalik teenuse osutamiseks või seadusest tulenevalt."
+    },
+    "rights": {
+      "title": "Teie õigused",
+      "intro": "Teil on järgmised õigused seoses teie isikuandmetega:",
+      "items": {
+        "access": "Õigus saada juurdepääs oma isikuandmetele",
+        "correction": "Õigus parandada ebatäpseid või puudulikke andmeid",
+        "deletion": "Õigus nõuda oma andmete kustutamist",
+        "restriction": "Õigus piirata või esitada vastuväiteid andmete töötlemisele (seaduses lubatud ulatuses)"
+      },
+      "contact": "Oma õiguste kasutamiseks või küsimuste korral võtke meiega ühendust e-posti teel: info@joyspot.ee"
+    }
+  },
+  "terms": {
+    "title": "Kasutustingimused",
+    "subtitle": "Palun lugege need tingimused hoolikalt läbi enne meie teenuste kasutamist",
+    "bookings": {
+      "title": "Broneerimistingimused",
+      "items": {
+        "reservation": "Broneerimistasu 50 € saab maksta eurodes turvalise pangalingi kaudu. Makset vahendab PayCly, kellele edastatakse vaid makse teostamiseks vajalikud isikuandmed.",
+        "payment": "Broneerimistasu on tagastamatu, kuid see arvestatakse lõppsummast maha. Pärast makset saadame teile kinnituse e-postiga.",
+        "cancellation": "Tühistamine ei ole võimalik, kuna teenuse osutamine toimub kindlal ajal ja kindla varustusega, mida on hiljem raske uuesti välja rentida.",
+        "modifications": "Kui soovite aega muuta, teavitage meid esimesel võimalusel. Broneeringut saab muuta ühe korra."
+      }
+    },
+    "hallRules": {
+      "title": "Saali Eeskirjad",
+      "items": {
+        "applicability": "Need reeglid kehtivad kõigile, kes viibivad JoySpoti ruumides.",
+        "duration": "Saal (184 m²) on teie käsutuses 2,5 tundi. Saate tulla 15 minutit varem, et ettevalmistusi teha.",
+        "cleaning": "Pärast pidu palume ruumid tagastada samas seisukorras – mänguasjad omal kohal, nõud pestud, prügi prügikastis.",
+        "cleaningFee": "Kui ruumid ei ole korras, on meil õigus väljastada koristusarve (50 €).",
+        "overtime": "Palume ruumid õigeaegselt vabastada, vastasel juhul võime esitada arve ületatud aja eest."
+      }
+    },
+    "kitchen": {
+      "title": "Köök ja Söögiala",
+      "items": {
+        "seating": "Söögikohti on 30 inimesele.",
+        "equipment": "Köögis on: espressomasin, veekeetja, mikrolaineahi, külmik, serveerimisnõud (kausid, vaagnad, kannud), 10 kruusi, serveerimisvahendid, tordilabidad ja lillevaasid.",
+        "provided": "Pakume: kohviube, teed, suhkrut ja juurdepääsu veedosaatorile.",
+        "tableware": "Palume tuua oma ühekordsed nõud.",
+        "restrictions": "Köögi esemeid kasutatakse ainult söögialas, mitte mängutoas.",
+        "candles": "Tordiküünlad on lubatud, kuid tordivulkaanid, ilutulestikud ja muud pürotehnikad on keelatud."
+      }
+    },
+    "furnishings": {
+      "title": "Mööbel ja Mänguasjad",
+      "items": {
+        "care": "Palume käsitleda kõiki mänguasju ja mööblit hoolikalt. Pärast üritust tuleb kõik asjad tagasi oma kohale panna.",
+        "damage": "Kui mõni ese saab kahjustada, palun teavitage meid, et saaksime kokkuleppele jõuda.",
+        "equipment": "Heli- ja muude seadmete käsitlemine on lubatud ainult täiskasvanutele."
+      }
+    },
+    "safety": {
+      "title": "Turvalisus",
+      "items": {
+        "supervision": "Täiskasvanu, kes saali broneeris, peab olema kogu sündmuse jooksul kohal ja vastutab laste ohutuse ning ruumide heaperemeheliku kasutamise eest.",
+        "youngChildren": "Alla 3-aastased lapsed tohivad viibida mängutoas vaid koos täiskasvanuga, kuna seal on väikeseid osi.",
+        "climbing": "Aknalaudadele, käsipuudele ja katustele ronimine on keelatud. Atraktsioone tuleb kasutada sihipäraselt.",
+        "gum": "Närimiskummi närimine saalis ei ole lubatud.",
+        "pets": "Lemmikloomad ei ole lubatud."
+      }
+    },
+    "maintenance": {
+      "title": "Hooldus",
+      "items": {
+        "smoking": "Saalis ei tohi suitsetada ega alkoholi tarbida.",
+        "liability": "JoySpot ei vastuta külaliste üleriiete ega isiklike asjade eest.",
+        "foodDrinks": "Toidu ja joogi toomine mängu- või VR-tuppa on keelatud. Tarbimine toimub ainult söögialas."
+      }
+    },
+    "additionalServices": {
+      "title": "Lisateenused",
+      "items": {
+        "arrangement": "Lisateenused tuleb eelnevalt kokku leppida e-posti või telefoni teel.",
+        "cleaning": "Kui soovite kasutada meie koristusteenust, andke sellest teada broneerimisel.",
+        "cleaningIncludes": "Teenus sisaldab: mänguasjade paigutamist oma kohale, kohapealsete nõude pesemist ja söögilaudade puhastamist.",
+        "hostResponsibility": "Teie poolt kaasa toodud esemed (toit, ühekordsed nõud jne) tuleb koristada peo korraldajal.",
+        "external": "Kui tellite toitlustuse või meelelahutuse mujalt, palume meid sellest eelnevalt teavitada."
+      }
+    }
+  }
+}
