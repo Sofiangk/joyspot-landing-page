@@ -25,6 +25,7 @@
             <li>{{ t('privacyPolicy.dataCollection.items.phone') }}</li>
             <li>{{ t('privacyPolicy.dataCollection.items.email') }}</li>
           </ul>
+
           <p>{{ t('privacyPolicy.dataCollection.necessity') }}</p>
 
           <h3 class="text-xl font-semibold text-gray-800 mt-8 mb-4">
