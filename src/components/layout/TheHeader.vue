@@ -123,7 +123,7 @@ watch(isMenuOpen, (newValue) => {
         <!-- Book Now Button -->
         <router-link
           to="/booking"
-          class="btn-primary text-sm py-2"
+          class="inline-block px-4 py-2 bg-primary-500 text-white rounded-md hover:bg-primary-600 transition-colors duration-200"
           @click="closeMenu"
         >
           {{ t('nav.booking') }}
@@ -187,13 +187,13 @@ watch(isMenuOpen, (newValue) => {
         </template>
 
         <!-- Book Now Button in Mobile Menu -->
-        <a
-          href="#booking"
-          class="btn-primary w-full text-center mt-4"
+        <router-link
+          to="/booking"
+          class="w-full px-4 py-3 bg-primary-500 text-white text-center rounded-md hover:bg-primary-600 transition-colors duration-200"
           @click="closeMenu"
         >
           {{ t('nav.booking') }}
-        </a>
+        </router-link>
 
         <!-- Language Toggle in Mobile Menu -->
         <button

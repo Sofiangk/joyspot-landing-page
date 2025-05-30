@@ -7,7 +7,7 @@
     "home": "Home",
     "about": "About",
     "gallery": "Gallery",
-    "services": "Services",
+    "services": "Other Services",
     "pricing": "Pricing",
     "contact": "Contact",
     "booking": "Book Now",
@@ -98,17 +98,17 @@
     "subtitle": "Take a peek at the fun that awaits"
   },
   "services": {
-    "title": "Our Services",
+    "title": "Other Services",
     "subtitle": "We work with the best partners to make your event unforgettable",
     "additionalInfo": "Additional Information",
     "contact": "Contact",
     "items": {
       "catering": {
-        "title": "Catering – Costal Parties",
+        "title": "Catering – Ranniku Peod",
         "description": "Professional catering services for all your party needs",
-        "info": "Costal Parties offers a variety of delicious meal options for your party. You can choose your favorite dishes, which will be delivered in disposable containers—making cleanup easy and letting you enjoy the event stress-free. If you prefer, you can also pick up the meals yourself.",
+        "info": "Ranniku Peod offers a variety of delicious meal options for your party. You can choose your favorite dishes, which will be delivered in disposable containers—making cleanup easy and letting you enjoy the event stress-free. If you prefer, you can also pick up the meals yourself.",
         "phone": "+372 52 322 74",
-        "email": "pidu@rannikupeod.ee",
+        "email": "pidu\\@rannikupeod.ee",
         "website": "https://rannikupeod.ee",
         "imageAlt": "Elegant party platters with colorful food arrangements"
       },
@@ -245,7 +245,7 @@
     "whatsIncluded": "What's Included in Every Package",
     "amazingPlayground": "Amazing Playground",
     "playgroundDesc": "Trampoline, climbing wall, ball pit, and sensory toys for endless fun",
-    "creativeCraftingRoom": "Creative Crafting Room",
+    "creativeCraftingRoom": "Creative Crafting Corner",
     "craftingDesc": "Hands-on activities like planting seeds and decorating cupcakes",
     "enhanceParty": "Enhance your party with these additional services",
     "vrRoomAddonDesc": "Add virtual reality experiences to your party",

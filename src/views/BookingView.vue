@@ -386,35 +386,37 @@
 
               <!-- Additional Services -->
               <div class="pt-8">
-                <h3 class="text-xl font-semibold text-primary-500 pb-8">
+                <h3 class="text-xl font-semibold text-primary-500 pb-4">
                   {{ t('booking.additionalServices.title') }}
                 </h3>
-                <div class="grid md:grid-cols-2 gap-4">
-                  <template
-                    v-for="service in additionalServices"
-                    :key="service.id"
+                <div class="space-y-4">
+                  <div
+                    class="p-4 border border-gray-300 rounded-lg text-gray-700"
                   >
-                    <div
-                      class="flex items-center space-x-2 p-3 border border-gray-300 rounded-lg text-gray-700"
-                    >
+                    <div class="flex items-center space-x-2">
                       <input
                         type="checkbox"
-                        :id="service.id"
-                        :checked="bookingData.services.includes(service.id)"
-                        @change="handleServiceToggle(service.id)"
+                        id="cleaning"
+                        :checked="bookingData.services.includes('cleaning')"
+                        @change="handleServiceToggle('cleaning')"
                         class="w-4 h-4 text-primary-600 border-gray-300 rounded focus:ring-primary-500"
                       />
-                      <label
-                        :for="service.id"
-                        class="flex-1 cursor-pointer pl-4"
-                      >
-                        <div class="font-medium">{{ service.name }}</div>
+                      <label for="cleaning" class="flex-1 cursor-pointer">
+                        <div class="font-medium">
+                          {{ additionalServices[0].name }}
+                        </div>
                         <div class="text-primary-600 font-semibold">
-                          €{{ service.price }}
+                          €{{ additionalServices[0].price }}
                         </div>
                       </label>
                     </div>
-                  </template>
+                    <div class="mt-2 pl-6 text-sm text-gray-600">
+                      {{ additionalServices[0].description }}
+                      <div class="mt-1 text-gray-500 italic text-xs">
+                        {{ additionalServices[0].note }}
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
 
@@ -910,39 +912,11 @@ const timeSlots = [
 // Additional services data with proper translation handling
 const additionalServices = computed(() => [
   {
-    id: 'catering',
-    name: t('booking.additionalServices.catering'),
-    price: 50,
-  },
-  {
-    id: 'facePainting',
-    name: t('booking.additionalServices.facePainting'),
-    price: 30,
-  },
-  {
-    id: 'glitterTattoos',
-    name: t('booking.additionalServices.glitterTattoos'),
-    price: 25,
-  },
-  {
-    id: 'balloonMaster',
-    name: t('booking.additionalServices.balloonMaster'),
-    price: 40,
-  },
-  {
-    id: 'livePerformance',
-    name: t('booking.additionalServices.livePerformance'),
-    price: 80,
-  },
-  {
-    id: 'superheroes',
-    name: t('booking.additionalServices.superheroes'),
-    price: 100,
-  },
-  {
     id: 'cleaning',
     name: t('booking.additionalServices.cleaning'),
-    price: 20,
+    price: 50,
+    description: t('pricing.cleaningService.description'),
+    note: t('pricing.cleaningService.note'),
   },
 ]);
 
