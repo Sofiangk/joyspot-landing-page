@@ -98,7 +98,7 @@
               <li>{{ t('privacyPolicy.rights.items.restriction') }}</li>
             </ul>
             <p class="text-gray-700 mt-4">
-              {{ t('privacyPolicy.rights.contact') }}
+              {{ t('privacyPolicy.rights.contact') }} info@joyspot.com
             </p>
           </section>
         </div>
