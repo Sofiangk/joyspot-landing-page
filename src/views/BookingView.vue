@@ -1480,7 +1480,6 @@ const handlePayment = async () => {
     bookingSuccess.value = true;
     alert(t("booking.bookingConfirmed"));
 
-    // Reset form and close modal
     showPaymentModal.value = false;
     paymentForm.value = {
       cardHolder: "",
