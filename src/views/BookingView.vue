@@ -1477,7 +1477,6 @@ const handlePayment = async () => {
 
     console.log("Booking response:", response.data);
 
-    // Handle successful booking
     bookingSuccess.value = true;
     alert(t("booking.bookingConfirmed"));
 
