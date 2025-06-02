@@ -213,6 +213,8 @@
       "cardCvv": "Korti turvakood",
       "confirmPayment": "Kinnita Makse",
       "cancel": "Tühista",
+      "success": "Täname broneeringu eest! Võtame teiega peagi ühendust detailide kinnitamiseks.",
+      "failed": "Broneeringu tegemisel tekkis viga. Palun proovige uuesti.",
       "errors": {
         "invalidCardHolder": "Vigane kortiomaniku nimi",
         "invalidCardNumber": "Vigane kortinumber",
@@ -340,11 +342,14 @@
       "cardCvv": "Korti turvakood",
       "confirmPayment": "Kinnita Makse",
       "cancel": "Tühista",
+      "success": "Täname broneeringu eest! Võtame teiega peagi ühendust detailide kinnitamiseks.",
+      "failed": "Broneeringu tegemisel tekkis viga. Palun proovige uuesti.",
       "errors": {
         "invalidCardHolder": "Vigane kortiomaniku nimi",
         "invalidCardNumber": "Vigane kortinumber",
         "invalidExpiryDate": "Vigane korti aegumine",
-        "invalidCvv": "Vigane CVV"
+        "invalidCvv": "Vigane CVV",
+        "expiredCard": "Kort on aegunud"
       }
     },
     "summary": {
@@ -365,7 +370,9 @@
     "back": "Tagasi",
     "bookingSummary": "Broneeringu Kokkuvõte",
     "goBack": "Mine Tagasi",
-    "confirmProceed": "Kinnita ja Jätka"
+    "confirmProceed": "Kinnita ja Jätka",
+    "monthView": "Kuuvaade",
+    "weekView": "Nädala Vaade"
   },
   "privacyPolicy": {
     "title": "Privaatsuspoliitika",

@@ -208,11 +208,14 @@
       "cardCvv": "CVV",
       "confirmPayment": "Confirm Payment",
       "cancel": "Cancel",
+      "success": "Thank you for your booking! We'll contact you shortly to confirm the details.",
+      "failed": "There was an error processing your booking. Please try again.",
       "errors": {
         "invalidCardHolder": "Invalid card holder name",
         "invalidCardNumber": "Invalid card number",
         "invalidExpiryDate": "Invalid expiry date",
-        "invalidCvv": "Invalid CVV"
+        "invalidCvv": "Invalid CVV",
+        "expiredCard": "Card is expired"
       }
     },
     "summary": {
@@ -234,7 +237,9 @@
     "bookingSummary": "Booking Summary",
     "goBack": "Go Back",
     "confirmProceed": "Confirm & Proceed",
-    "total": "Total"
+    "total": "Total",
+    "monthView": "Month View",
+    "weekView": "Week View"
   },
   "pricing": {
     "title": "Prices",

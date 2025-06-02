@@ -184,7 +184,7 @@
                 <!-- View Toggle -->
                 <button
                   @click="toggleCalendarView"
-                  class="flex items-center gap-2 px-3 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50"
+                  class="flex items-center gap-2 px-3 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm font-medium text-secondary-500 bg-gray-50 hover:bg-gray-100 border border-gray-200 rounded-md transition-colors duration-200"
                 >
                   <svg
                     class="w-4 h-4 sm:w-5 sm:h-5"
@@ -200,7 +200,11 @@
                       d="M4 6h16M4 10h16M4 14h16M4 18h16"
                     />
                   </svg>
-                  {{ calendarView === 'week' ? 'Month View' : 'Week View' }}
+                  {{
+                    calendarView === 'week'
+                      ? t('booking.monthView')
+                      : t('booking.weekView')
+                  }}
                 </button>
               </div>
             </div>
@@ -237,12 +241,14 @@
                 <div
                   :class="[
                     'p-1 sm:p-3 rounded-lg sm:rounded-lg text-center transition-all border',
-                    selectedDate === day.date
+                    selectedDate === day.date && !day.isWeekend
                       ? 'bg-primary-500 text-white border-primary-400'
                       : day.isAvailable && !day.isPast
                       ? 'bg-white hover:bg-primary-50 border-gray-200 cursor-pointer'
-                      : 'bg-gray-100 text-gray-400 cursor-not-allowed border-gray-200',
-                    day.isWeekend ? 'border-2 border-primary-300' : '',
+                      : 'bg-gray-50 text-gray-400 cursor-not-allowed border-gray-200',
+                    day.isWeekend && !day.isPast && day.isAvailable
+                      ? 'border-2 border-secondary-400 bg-secondary-50 hover:bg-secondary-100'
+                      : '',
                     day.isOutsideMonth ? 'opacity-50' : '',
                     day.isPast ? 'opacity-50 cursor-not-allowed' : '',
                   ]"
@@ -262,7 +268,7 @@
                             ? 'bg-gray-400'
                             : day.isAvailable
                             ? 'bg-green-500'
-                            : 'bg-red-500',
+                            : 'bg-gray-400',
                         ]"
                       ></div>
                       <span
@@ -270,7 +276,7 @@
                           'text-[10px] mt-0.5 font-medium',
                           day.isAvailable && !day.isPast
                             ? 'text-green-600'
-                            : 'text-red-500',
+                            : 'text-gray-500',
                         ]"
                       >
                         {{ day.isPast ? 'P' : day.isAvailable ? 'A' : 'B' }}
@@ -284,7 +290,7 @@
                           ? 'bg-gray-100 text-gray-600'
                           : day.isAvailable
                           ? 'bg-green-100 text-green-700'
-                          : 'bg-red-100 text-red-700',
+                          : 'bg-red-100 text-red-600',
                       ]"
                     >
                       {{
@@ -954,7 +960,7 @@ const showPaymentModal = ref(false);
 const calendarView = ref('week'); // 'week' or 'month'
 const currentMonth = ref(new Date());
 const currentWeek = ref(new Date());
-const availabilityData = ref([]);
+const availabilityData = ref([]); // Initialize as empty array
 const selectedDateSlots = ref([]); // Store slots for the selected date
 const isLoading = ref(false);
 const isLoadingSlots = ref(false); // Loading state for time slots
@@ -985,7 +991,8 @@ async function getDates() {
 
   try {
     const response = await axios.get(`${apiUrl}dates-availability`);
-    availabilityData.value = response.data;
+    // Ensure we're setting an array
+    availabilityData.value = Array.isArray(response.data) ? response.data : [];
     console.log('Availability data loaded:', availabilityData.value);
   } catch (e) {
     console.error('Error fetching availability data:', e);
@@ -1263,7 +1270,7 @@ const navigateWeek = (direction) => {
   const today = new Date();
   today.setHours(0, 0, 0, 0);
   if (newDate >= today) {
-    currentWeek.value = newDate;
+    currentWeek.value = new Date(newDate);
     // Keep month in sync when changing weeks
     currentMonth.value = new Date(newDate);
   }
@@ -1367,7 +1374,10 @@ const createDayObject = (date, isOutsideMonth = false) => {
   date.setHours(0, 0, 0, 0);
 
   const dateString = date.toISOString().split('T')[0];
-  const dateData = availabilityData.value.find((d) => d.date === dateString);
+  // Add null check and ensure availabilityData.value is an array
+  const dateData = Array.isArray(availabilityData.value)
+    ? availabilityData.value.find((d) => d.date === dateString)
+    : null;
 
   return {
     date: dateString,
@@ -1376,7 +1386,7 @@ const createDayObject = (date, isOutsideMonth = false) => {
     ),
     displayDate: date.getDate(),
     month: new Intl.DateTimeFormat('en-US', { month: 'short' }).format(date),
-    isWeekend: [5, 6].includes(date.getDay()),
+    isWeekend: [0, 6].includes(date.getDay()), // 0 is Sunday, 6 is Saturday
     isAvailable: dateData?.status === 'available',
     isOutsideMonth,
     isPast: date < today,
@@ -1478,7 +1488,7 @@ const handlePayment = async () => {
     console.log('Booking response:', response.data);
 
     bookingSuccess.value = true;
-    alert(t('booking.bookingConfirmed.success'));
+    alert(t('booking.payment.success'));
 
     showPaymentModal.value = false;
     paymentForm.value = {
