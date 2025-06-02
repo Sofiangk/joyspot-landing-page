@@ -6,8 +6,8 @@
         <div
           class="bg-gradient-to-r from-primary-500 to-secondary-500 text-white p-6"
         >
-          <h1 class="text-3xl font-bold">{{ t("booking.title") }}</h1>
-          <p class="mt-2 opacity-90">{{ t("booking.subtitle") }}</p>
+          <h1 class="text-3xl font-bold">{{ t('booking.title') }}</h1>
+          <p class="mt-2 opacity-90">{{ t('booking.subtitle') }}</p>
         </div>
 
         <!-- Progress Steps -->
@@ -39,7 +39,7 @@
                 <line x1="3" y1="10" x2="21" y2="10" />
               </svg>
               <span class="pl-2 font-medium">{{
-                t("booking.selectDate")
+                t('booking.selectDate')
               }}</span>
             </div>
             <div
@@ -68,7 +68,7 @@
                 <path d="M16 3.13a4 4 0 0 1 0 7.75" />
               </svg>
               <span class="pl-2 font-medium">{{
-                t("booking.partyDetails")
+                t('booking.partyDetails')
               }}</span>
             </div>
             <div
@@ -97,7 +97,7 @@
                 <line x1="15" y1="9" x2="15.01" y2="9" />
               </svg>
               <span class="pl-2 font-medium">{{
-                t("booking.summary.title")
+                t('booking.summary.title')
               }}</span>
             </div>
           </div>
@@ -111,7 +111,7 @@
               class="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-6 gap-4"
             >
               <h2 class="text-xl sm:text-2xl font-bold text-primary-500">
-                {{ t("booking.selectYourDate") }}
+                {{ t('booking.selectYourDate') }}
               </h2>
 
               <div class="flex flex-wrap items-center gap-2 sm:gap-4">
@@ -151,7 +151,7 @@
                     class="text-sm sm:text-lg font-medium min-w-[140px] sm:min-w-[180px] text-center"
                   >
                     {{
-                      calendarView === "week"
+                      calendarView === 'week'
                         ? currentWeekRange
                         : currentMonthYear
                     }}
@@ -200,7 +200,7 @@
                       d="M4 6h16M4 10h16M4 14h16M4 18h16"
                     />
                   </svg>
-                  {{ calendarView === "week" ? "Month View" : "Week View" }}
+                  {{ calendarView === 'week' ? 'Month View' : 'Week View' }}
                 </button>
               </div>
             </div>
@@ -273,7 +273,7 @@
                             : 'text-red-500',
                         ]"
                       >
-                        {{ day.isPast ? "P" : day.isAvailable ? "A" : "B" }}
+                        {{ day.isPast ? 'P' : day.isAvailable ? 'A' : 'B' }}
                       </span>
                     </div>
                     <!-- Desktop Status (full text) -->
@@ -289,10 +289,10 @@
                     >
                       {{
                         day.isPast
-                          ? t("booking.past")
+                          ? t('booking.past')
                           : day.isAvailable
-                          ? t("booking.available")
-                          : t("booking.booked")
+                          ? t('booking.available')
+                          : t('booking.booked')
                       }}
                     </div>
                   </div>
@@ -304,7 +304,7 @@
             <div v-if="selectedDate" class="pt-8">
               <div class="flex items-center justify-between mb-4">
                 <h3 class="text-xl font-semibold text-gray-700">
-                  {{ t("booking.availableTimeSlots") }}
+                  {{ t('booking.availableTimeSlots') }}
                 </h3>
                 <!-- Loading indicator for time slots -->
                 <div
@@ -404,7 +404,7 @@
           <div v-if="currentStep === 'details'">
             <div class="flex items-center justify-between pb-6">
               <h2 class="text-2xl font-bold text-primary-500 pb-8">
-                {{ t("booking.partyDetails") }}
+                {{ t('booking.partyDetails') }}
               </h2>
               <button
                 @click="currentStep = 'calendar'"
@@ -424,7 +424,7 @@
                 >
                   <path d="M15 18l-6-6 6-6" />
                 </svg>
-                {{ t("booking.back") }}
+                {{ t('booking.back') }}
               </button>
             </div>
 
@@ -442,18 +442,18 @@
                     for="vrRoom"
                     class="text-lg font-semibold text-black pl-2"
                   >
-                    {{ t("pricing.vrRoomAddon") }} (+€{{ getVrPrice() }})
+                    {{ t('pricing.vrRoomAddon') }} (+€{{ getVrPrice() }})
                   </label>
                 </div>
                 <p class="text-gray-600 mt-2">
-                  {{ t("pricing.vrRoomAddonDesc") }}
+                  {{ t('pricing.vrRoomAddonDesc') }}
                 </p>
               </div>
 
               <!-- Additional Services -->
               <div class="pt-8">
                 <h3 class="text-xl font-semibold text-primary-500 pb-4">
-                  {{ t("booking.additionalServices.title") }}
+                  {{ t('booking.additionalServices.title') }}
                 </h3>
                 <div class="space-y-4">
                   <div
@@ -489,12 +489,12 @@
               <!-- User Information -->
               <div>
                 <h3 class="text-xl font-semibold text-primary-500 pt-8 pb-4">
-                  {{ t("booking.yourInformation") }}
+                  {{ t('booking.yourInformation') }}
                 </h3>
                 <div class="grid md:grid-cols-2 gap-4">
                   <form @submit.prevent="handleSubmit">
                     <label class="block text-sm font-medium text-gray-700 pb-2">
-                      {{ t("booking.form.name") }} *
+                      {{ t('booking.form.name') }} *
                     </label>
                     <input
                       v-model="bookingData.userInfo.name"
@@ -512,7 +512,7 @@
                   </form>
                   <div>
                     <label class="block text-sm font-medium text-gray-700 pb-2">
-                      {{ t("booking.form.email") }} *
+                      {{ t('booking.form.email') }} *
                     </label>
                     <input
                       v-model="bookingData.userInfo.email"
@@ -533,7 +533,7 @@
                   </div>
                   <div>
                     <label class="block text-sm font-medium text-gray-700 pb-2">
-                      {{ t("booking.form.phone") }} *
+                      {{ t('booking.form.phone') }} *
                     </label>
                     <input
                       v-model="bookingData.userInfo.phone"
@@ -555,7 +555,7 @@
                   </div>
                   <div>
                     <label class="block text-sm font-medium text-gray-700 pb-2">
-                      {{ t("booking.form.childName") }} *
+                      {{ t('booking.form.childName') }} *
                     </label>
                     <input
                       v-model="bookingData.userInfo.childName"
@@ -569,7 +569,7 @@
                   </div>
                   <div>
                     <label class="block text-sm font-medium text-gray-700 pb-2">
-                      {{ t("booking.form.childAge") }} *
+                      {{ t('booking.form.childAge') }} *
                     </label>
                     <input
                       v-model="bookingData.userInfo.childAge"
@@ -583,7 +583,7 @@
                   </div>
                   <div class="md:col-span-2">
                     <label class="block text-sm font-medium text-gray-700 pb-2">
-                      {{ t("booking.form.notes") }}
+                      {{ t('booking.form.notes') }}
                     </label>
                     <textarea
                       v-model="bookingData.userInfo.message"
@@ -600,7 +600,7 @@
                 :disabled="!isFormValid"
                 class="btn btn-primary flex items-center justify-center gap-2 bg-primary-500 text-white rounded px-3 cursor-pointer hover:bg-primary-600 py-2 w-fit text-center text-sm"
               >
-                {{ t("booking.continueToSummary") }}
+                {{ t('booking.continueToSummary') }}
                 <svg
                   class="w-4 h-4"
                   xmlns="http://www.w3.org/2000/svg"
@@ -623,7 +623,7 @@
           <div v-if="currentStep === 'summary'">
             <div class="flex items-center justify-between pb-6">
               <h2 class="text-2xl font-bold text-primary-500">
-                {{ t("booking.bookingSummary") }}
+                {{ t('booking.bookingSummary') }}
               </h2>
               <button
                 @click="currentStep = 'details'"
@@ -643,7 +643,7 @@
                 >
                   <path d="M15 18l-6-6 6-6" />
                 </svg>
-                {{ t("booking.back") }}
+                {{ t('booking.back') }}
               </button>
             </div>
 
@@ -651,23 +651,23 @@
               <!-- Booking Details -->
               <div class="bg-gray-50 p-6 rounded-lg">
                 <h3 class="text-lg font-semibold pb-4 text-primary-500">
-                  {{ t("booking.partyDetails") }}
+                  {{ t('booking.partyDetails') }}
                 </h3>
                 <div class="space-y-2 text-gray-700">
                   <p>
-                    <strong>{{ t("booking.summary.date") }}:</strong>
+                    <strong>{{ t('booking.summary.date') }}:</strong>
                     {{ formatDate(bookingData.date) }}
                   </p>
                   <p>
-                    <strong>{{ t("booking.summary.time") }}:</strong>
+                    <strong>{{ t('booking.summary.time') }}:</strong>
                     {{ bookingData.timeSlot }}
                   </p>
                   <p>
-                    <strong>{{ t("pricing.basePackage") }}:</strong>
-                    {{ t("pricing.baseRooms") }}
+                    <strong>{{ t('pricing.basePackage') }}:</strong>
+                    {{ t('pricing.baseRooms') }}
                   </p>
                   <p v-if="bookingData.vrRoom">
-                    <strong>{{ t("pricing.vrRoomAddon") }}</strong>
+                    <strong>{{ t('pricing.vrRoomAddon') }}</strong>
                   </p>
                 </div>
               </div>
@@ -678,7 +678,7 @@
                 class="bg-gray-50 text-gray-700 p-6 rounded-lg"
               >
                 <h3 class="text-lg font-semibold pb-4 text-primary-500">
-                  {{ t("booking.additionalServices.title") }}
+                  {{ t('booking.additionalServices.title') }}
                 </h3>
                 <ul class="space-y-1">
                   <template
@@ -698,23 +698,23 @@
               <!-- Contact Information -->
               <div class="bg-gray-50 p-6 rounded-lg text-gray-700">
                 <h3 class="text-lg font-semibold pb-4 text-primary-500">
-                  {{ t("booking.contactInformation") }}
+                  {{ t('booking.contactInformation') }}
                 </h3>
                 <div class="space-y-2">
                   <p>
-                    <strong>{{ t("booking.form.name") }}:</strong>
+                    <strong>{{ t('booking.form.name') }}:</strong>
                     {{ bookingData.userInfo.name }}
                   </p>
                   <p>
-                    <strong>{{ t("booking.form.email") }}:</strong>
+                    <strong>{{ t('booking.form.email') }}:</strong>
                     {{ bookingData.userInfo.email }}
                   </p>
                   <p>
-                    <strong>{{ t("booking.form.phone") }}:</strong>
+                    <strong>{{ t('booking.form.phone') }}:</strong>
                     {{ bookingData.userInfo.phone }}
                   </p>
                   <p v-if="bookingData.userInfo.message">
-                    <strong>{{ t("booking.specialRequests") }}:</strong>
+                    <strong>{{ t('booking.specialRequests') }}:</strong>
                     {{ bookingData.userInfo.message }}
                   </p>
                 </div>
@@ -723,26 +723,26 @@
               <!-- Price Breakdown -->
               <div class="bg-primary-50 p-6 rounded-lg text-gray-600">
                 <h3 class="text-lg font-semibold pb-4 text-primary-400">
-                  {{ t("booking.priceBreakdown") }}
+                  {{ t('booking.priceBreakdown') }}
                 </h3>
                 <div class="space-y-2">
                   <div class="flex justify-between">
                     <span
-                      >{{ t("pricing.basePackage") }} ({{
+                      >{{ t('pricing.basePackage') }} ({{
                         bookingData.timeSlot
                       }})</span
                     >
                     <span>€{{ bookingData.basePrice }}</span>
                   </div>
                   <div v-if="bookingData.vrRoom" class="flex justify-between">
-                    <span>{{ t("pricing.vrRoomAddon") }}</span>
+                    <span>{{ t('pricing.vrRoomAddon') }}</span>
                     <span>+€{{ getVrPrice() }}</span>
                   </div>
                   <div class="border-t pt-2 mt-2">
                     <div
                       class="flex justify-between text-xl font-bold text-primary-600"
                     >
-                      <span>{{ t("booking.total") }}</span>
+                      <span>{{ t('booking.total') }}</span>
                       <span>€{{ calculateTotal() }}</span>
                     </div>
                   </div>
@@ -754,13 +754,13 @@
                   @click="currentStep = 'details'"
                   class="btn btn-outline bg-primary-100 w-fit py-3 hover:bg-primary-200 rounded cursor-pointer flex-1"
                 >
-                  {{ t("booking.goBack") }}
+                  {{ t('booking.goBack') }}
                 </button>
                 <button
                   @click="showPaymentModal = true"
                   class="btn btn-primary flex-1 bg-primary-500 hover:bg-primary-600 w-fit py-3 rounded cursor-pointer text-white"
                 >
-                  {{ t("booking.confirmProceed") }}
+                  {{ t('booking.confirmProceed') }}
                 </button>
               </div>
             </div>
@@ -796,10 +796,10 @@
             </svg>
           </div>
           <h3 class="text-2xl font-bold text-gray-800 pb-2">
-            {{ t("booking.payment.securePayment") }}
+            {{ t('booking.payment.securePayment') }}
           </h3>
           <p class="text-gray-600">
-            {{ t("booking.payment.completeBooking") }}
+            {{ t('booking.payment.completeBooking') }}
           </p>
         </div>
 
@@ -808,7 +808,7 @@
         >
           <div class="flex justify-between items-center text-lg font-bold">
             <span class="text-gray-600">{{
-              t("booking.payment.totalAmount")
+              t('booking.payment.totalAmount')
             }}</span>
             <span class="text-2xl text-primary-600"
               >€{{ calculateTotal() }}</span
@@ -819,7 +819,7 @@
         <div class="space-y-4 pb-6">
           <div>
             <label class="block text-sm font-bold text-gray-700 py-2">
-              {{ t("booking.payment.cardHolder") }}
+              {{ t('booking.payment.cardHolder') }}
             </label>
             <input
               v-model="paymentForm.cardHolder"
@@ -843,7 +843,7 @@
           </div>
           <div>
             <label class="block text-sm font-bold text-gray-700 py-2">
-              {{ t("booking.payment.cardNumber") }}
+              {{ t('booking.payment.cardNumber') }}
             </label>
             <input
               v-model="paymentForm.cardNumber"
@@ -870,7 +870,7 @@
           <div class="grid grid-cols-2 gap-4">
             <div>
               <label class="block text-sm font-bold text-gray-700 pb-2">
-                {{ t("booking.payment.expiryDate") }}
+                {{ t('booking.payment.expiryDate') }}
               </label>
               <input
                 v-model="paymentForm.expiryDate"
@@ -895,7 +895,7 @@
             </div>
             <div>
               <label class="block text-sm font-bold text-gray-700 pb-2">
-                {{ t("booking.payment.cardCvv") }}
+                {{ t('booking.payment.cardCvv') }}
               </label>
               <input
                 v-model="paymentForm.cvv"
@@ -926,13 +926,13 @@
             @click="closePaymentModal"
             class="btn btn-outline flex-1 border-2 border-gray-300 rounded-lg text-gray-600 py-3"
           >
-            {{ t("booking.payment.cancel") }}
+            {{ t('booking.payment.cancel') }}
           </button>
           <button
             @click="handlePayment"
             class="flex-1 bg-gradient-to-r from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-700 text-white rounded-lg py-3 px-4 font-bold"
           >
-            {{ t("booking.payment.confirmPayment") }}
+            {{ t('booking.payment.confirmPayment') }}
           </button>
         </div>
       </div>
@@ -941,17 +941,17 @@
 </template>
 
 <script setup>
-import axios from "axios";
-import { ref, computed, onMounted } from "vue";
-import { useI18n } from "vue-i18n";
+import axios from 'axios';
+import { ref, computed, onMounted } from 'vue';
+import { useI18n } from 'vue-i18n';
 
 const { t } = useI18n();
 
 // Reactive data
-const currentStep = ref("calendar");
-const selectedDate = ref("");
+const currentStep = ref('calendar');
+const selectedDate = ref('');
 const showPaymentModal = ref(false);
-const calendarView = ref("week"); // 'week' or 'month'
+const calendarView = ref('week'); // 'week' or 'month'
 const currentMonth = ref(new Date());
 const currentWeek = ref(new Date());
 const availabilityData = ref([]);
@@ -963,41 +963,41 @@ const bookingError = ref(null); // New state for tracking booking errors
 const bookingSuccess = ref(false); // New state for tracking booking success
 
 const bookingData = ref({
-  date: "",
-  timeSlot: "",
+  date: '',
+  timeSlot: '',
   basePrice: 0,
   vrRoom: false,
   services: [],
   userInfo: {
-    name: "",
-    email: "",
-    phone: "",
-    childName: "",
-    childAge: "",
-    message: "",
+    name: '',
+    email: '',
+    phone: '',
+    childName: '',
+    childAge: '',
+    message: '',
   },
 });
 
 // Fetch availability data from API
 async function getDates() {
   isLoading.value = true;
-  const apiUrl = import.meta.env.VITE_APP_API_URL || "";
+  const apiUrl = import.meta.env.VITE_APP_API_URL || '';
 
   try {
     const response = await axios.get(`${apiUrl}dates-availability`);
     availabilityData.value = response.data;
-    console.log("Availability data loaded:", availabilityData.value);
+    console.log('Availability data loaded:', availabilityData.value);
   } catch (e) {
-    console.error("Error fetching availability data:", e);
+    console.error('Error fetching availability data:', e);
     // Fallback to the provided data if API fails
     availabilityData.value = [
       {
-        date: "2025-06-01",
-        status: "available",
+        date: '2025-06-01',
+        status: 'available',
         slots: [
-          { slot: "11:00 – 13:30", status: "available" },
-          { slot: "14:30 – 17:00", status: "available" },
-          { slot: "18:00 – 20:30", status: "available" },
+          { slot: '11:00 – 13:30', status: 'available' },
+          { slot: '14:30 – 17:00', status: 'available' },
+          { slot: '18:00 – 20:30', status: 'available' },
         ],
       },
     ];
@@ -1009,7 +1009,7 @@ async function getDates() {
 // Fetch specific date availability - FIXED to handle your API response format
 async function getDateAvailability(date) {
   isLoadingSlots.value = true;
-  const apiUrl = import.meta.env.VITE_APP_API_URL || "";
+  const apiUrl = import.meta.env.VITE_APP_API_URL || '';
 
   try {
     const response = await axios.get(`${apiUrl}availability/${date}`);
@@ -1044,8 +1044,8 @@ const availableTimeSlots = computed(() => {
   // Since your API returns an array of strings, we map them directly
   return selectedDateSlots.value.map((timeSlot) => ({
     time: timeSlot,
-    price: timeSlot.includes("18:00") ? 165 : 125,
-    vrPrice: timeSlot.includes("18:00") ? 110 : 75,
+    price: timeSlot.includes('18:00') ? 165 : 125,
+    vrPrice: timeSlot.includes('18:00') ? 110 : 75,
     available: true, // All slots from your API are available
   }));
 });
@@ -1053,11 +1053,11 @@ const availableTimeSlots = computed(() => {
 // Additional services data with proper translation handling
 const additionalServices = computed(() => [
   {
-    id: "cleaning",
-    name: t("booking.additionalServices.cleaning"),
+    id: 'cleaning',
+    name: t('booking.additionalServices.cleaning'),
     price: 50,
-    description: t("pricing.cleaningService.description"),
-    note: t("pricing.cleaningService.note"),
+    description: t('pricing.cleaningService.description'),
+    note: t('pricing.cleaningService.note'),
   },
 ]);
 
@@ -1069,12 +1069,12 @@ const validationRules = {
     maxLength: 50,
   },
   email: {
-    pattern: "[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,}$",
+    pattern: '[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,}$',
     minLength: 5,
     maxLength: 60,
   },
   phone: {
-    pattern: "^[+]?[0-9]{8,15}$",
+    pattern: '^[+]?[0-9]{8,15}$',
     minLength: 8,
     maxLength: 15,
   },
@@ -1095,15 +1095,15 @@ const validationRules = {
       maxLength: 50,
     },
     cardNumber: {
-      pattern: "^[0-9]{16}$",
+      pattern: '^[0-9]{16}$',
       minLength: 16,
       maxLength: 16,
     },
     expiryDate: {
-      pattern: "^(0[1-9]|1[0-2])\\/([0-9]{2})$",
+      pattern: '^(0[1-9]|1[0-2])\\/([0-9]{2})$',
     },
     cvv: {
-      pattern: "^[0-9]{3,4}$",
+      pattern: '^[0-9]{3,4}$',
       minLength: 3,
       maxLength: 3,
     },
@@ -1112,10 +1112,10 @@ const validationRules = {
 
 // Add payment form data
 const paymentForm = ref({
-  cardHolder: "",
-  cardNumber: "",
-  expiryDate: "",
-  cvv: "",
+  cardHolder: '',
+  cardNumber: '',
+  expiryDate: '',
+  cvv: '',
 });
 
 // Add submission attempt tracker
@@ -1137,7 +1137,7 @@ const paymentErrors = computed(() => {
       new RegExp(validationRules.payment.cardHolder.pattern)
     )
   ) {
-    errors.cardHolder = t("booking.payment.errors.invalidCardHolder");
+    errors.cardHolder = t('booking.payment.errors.invalidCardHolder');
   }
 
   if (
@@ -1146,7 +1146,7 @@ const paymentErrors = computed(() => {
       new RegExp(validationRules.payment.cardNumber.pattern)
     )
   ) {
-    errors.cardNumber = t("booking.payment.errors.invalidCardNumber");
+    errors.cardNumber = t('booking.payment.errors.invalidCardNumber');
   }
 
   if (
@@ -1155,14 +1155,14 @@ const paymentErrors = computed(() => {
       new RegExp(validationRules.payment.expiryDate.pattern)
     )
   ) {
-    errors.expiryDate = t("booking.payment.errors.invalidExpiryDate");
+    errors.expiryDate = t('booking.payment.errors.invalidExpiryDate');
   } else {
     // Additional expiry date validation
-    const [month, year] = payment.expiryDate.split("/");
+    const [month, year] = payment.expiryDate.split('/');
     const expiry = new Date(2000 + parseInt(year), parseInt(month) - 1);
     const today = new Date();
     if (expiry < today) {
-      errors.expiryDate = t("booking.payment.errors.expiredCard");
+      errors.expiryDate = t('booking.payment.errors.expiredCard');
     }
   }
 
@@ -1170,7 +1170,7 @@ const paymentErrors = computed(() => {
     !payment.cvv ||
     !payment.cvv.match(new RegExp(validationRules.payment.cvv.pattern))
   ) {
-    errors.cvv = t("booking.payment.errors.invalidCvv");
+    errors.cvv = t('booking.payment.errors.invalidCvv');
   }
 
   return errors;
@@ -1189,21 +1189,21 @@ const isPaymentFormValid = computed(() => {
 
 // Add input formatters
 const formatCardNumber = (e) => {
-  let value = e.target.value.replace(/\D/g, "");
+  let value = e.target.value.replace(/\D/g, '');
   if (value.length > 16) value = value.slice(0, 16);
   paymentForm.value.cardNumber = value;
 };
 
 const formatExpiryDate = (e) => {
-  let value = e.target.value.replace(/\D/g, "");
+  let value = e.target.value.replace(/\D/g, '');
   if (value.length >= 2) {
-    value = value.slice(0, 2) + "/" + value.slice(2, 4);
+    value = value.slice(0, 2) + '/' + value.slice(2, 4);
   }
   paymentForm.value.expiryDate = value;
 };
 
 const formatCvv = (e) => {
-  let value = e.target.value.replace(/\D/g, "");
+  let value = e.target.value.replace(/\D/g, '');
   if (value.length > 4) value = value.slice(0, 4);
   paymentForm.value.cvv = value;
 };
@@ -1214,21 +1214,21 @@ const formErrors = computed(() => {
   const info = bookingData.value.userInfo;
 
   if (!info.name || info.name.length < validationRules.name.minLength) {
-    errors.name = t("booking.form.errors.nameRequired");
+    errors.name = t('booking.form.errors.nameRequired');
   }
 
   if (
     !info.email ||
-    !info.email.match(new RegExp(validationRules.email.pattern, "i"))
+    !info.email.match(new RegExp(validationRules.email.pattern, 'i'))
   ) {
-    errors.email = t("booking.form.errors.invalidEmail");
+    errors.email = t('booking.form.errors.invalidEmail');
   }
 
   if (
     !info.phone ||
     !info.phone.match(new RegExp(validationRules.phone.pattern))
   ) {
-    errors.phone = t("booking.form.errors.invalidPhone");
+    errors.phone = t('booking.form.errors.invalidPhone');
   }
 
   return errors;
@@ -1250,7 +1250,7 @@ const navigateMonth = (direction) => {
   newDate.setMonth(newDate.getMonth() + direction);
   currentMonth.value = newDate;
   // Keep week in sync when changing months
-  if (calendarView.value === "week") {
+  if (calendarView.value === 'week') {
     currentWeek.value = new Date(newDate);
   }
 };
@@ -1271,33 +1271,33 @@ const navigateWeek = (direction) => {
 
 // Format month and year
 const currentMonthYear = computed(() => {
-  return new Intl.DateTimeFormat("en-US", {
-    month: "long",
-    year: "numeric",
+  return new Intl.DateTimeFormat('en-US', {
+    month: 'long',
+    year: 'numeric',
   }).format(currentMonth.value);
 });
 
 // Format week range
 const currentWeekRange = computed(() => {
-  if (calendarView.value !== "week") return "";
+  if (calendarView.value !== 'week') return '';
 
   const startDate = new Date(currentWeek.value);
   const endDate = new Date(startDate);
   endDate.setDate(startDate.getDate() + 6);
 
-  const formatOptions = { month: "short", day: "numeric" };
-  const start = new Intl.DateTimeFormat("en-US", formatOptions).format(
+  const formatOptions = { month: 'short', day: 'numeric' };
+  const start = new Intl.DateTimeFormat('en-US', formatOptions).format(
     startDate
   );
-  const end = new Intl.DateTimeFormat("en-US", formatOptions).format(endDate);
+  const end = new Intl.DateTimeFormat('en-US', formatOptions).format(endDate);
 
   return `${start} - ${end}`;
 });
 
 // Calendar view toggle
 const toggleCalendarView = () => {
-  calendarView.value = calendarView.value === "week" ? "month" : "week";
-  if (calendarView.value === "week") {
+  calendarView.value = calendarView.value === 'week' ? 'month' : 'week';
+  if (calendarView.value === 'week') {
     currentWeek.value = new Date(currentMonth.value);
   }
 };
@@ -1306,7 +1306,7 @@ const toggleCalendarView = () => {
 const generateCalendarDays = () => {
   const days = [];
 
-  if (calendarView.value === "week") {
+  if (calendarView.value === 'week') {
     // Week view - show 7 days starting from currentWeek
     const startOfWeek = new Date(currentWeek.value);
     for (let i = 0; i < 7; i++) {
@@ -1366,18 +1366,18 @@ const createDayObject = (date, isOutsideMonth = false) => {
   today.setHours(0, 0, 0, 0);
   date.setHours(0, 0, 0, 0);
 
-  const dateString = date.toISOString().split("T")[0];
+  const dateString = date.toISOString().split('T')[0];
   const dateData = availabilityData.value.find((d) => d.date === dateString);
 
   return {
     date: dateString,
-    dayName: new Intl.DateTimeFormat("en-US", { weekday: "short" }).format(
+    dayName: new Intl.DateTimeFormat('en-US', { weekday: 'short' }).format(
       date
     ),
     displayDate: date.getDate(),
-    month: new Intl.DateTimeFormat("en-US", { month: "short" }).format(date),
+    month: new Intl.DateTimeFormat('en-US', { month: 'short' }).format(date),
     isWeekend: [5, 6].includes(date.getDay()),
-    isAvailable: dateData?.status === "available",
+    isAvailable: dateData?.status === 'available',
     isOutsideMonth,
     isPast: date < today,
   };
@@ -1397,7 +1397,7 @@ const handleDateSelect = async (date) => {
 const handleTimeSlotSelect = (timeSlot, price) => {
   bookingData.value.timeSlot = timeSlot;
   bookingData.value.basePrice = price;
-  currentStep.value = "details";
+  currentStep.value = 'details';
 };
 
 const handleServiceToggle = (serviceId) => {
@@ -1455,7 +1455,7 @@ const handlePayment = async () => {
   isSubmitting.value = true;
 
   try {
-    const apiUrl = import.meta.env.VITE_APP_API_URL || "";
+    const apiUrl = import.meta.env.VITE_APP_API_URL || '';
 
     // Prepare booking data according to backend requirements
     const bookingPayload = {
@@ -1465,27 +1465,27 @@ const handlePayment = async () => {
       date: bookingData.value.date,
       time_slot: bookingData.value.timeSlot,
       additional_services: bookingData.value.services,
-      special_requests: bookingData.value.userInfo.message || "",
+      special_requests: bookingData.value.userInfo.message || '',
       // Include VR room as an additional service if selected
       ...(bookingData.value.vrRoom && { vr_room: true }),
     };
 
-    console.log("Submitting booking:", bookingPayload);
+    console.log('Submitting booking:', bookingPayload);
 
     // Send booking data to backend
     const response = await axios.post(`${apiUrl}book`, bookingPayload);
 
-    console.log("Booking response:", response.data);
+    console.log('Booking response:', response.data);
 
     bookingSuccess.value = true;
-    alert(t("booking.bookingConfirmed"));
+    alert(t('booking.bookingConfirmed.success'));
 
     showPaymentModal.value = false;
     paymentForm.value = {
-      cardHolder: "",
-      cardNumber: "",
-      expiryDate: "",
-      cvv: "",
+      cardHolder: '',
+      cardNumber: '',
+      expiryDate: '',
+      cvv: '',
     };
     hasAttemptedSubmit.value = false;
 
@@ -1493,15 +1493,15 @@ const handlePayment = async () => {
     resetBookingData();
 
     // Return to calendar step
-    currentStep.value = "calendar";
+    currentStep.value = 'calendar';
   } catch (error) {
-    console.error("Booking error:", error);
+    console.error('Booking error:', error);
 
     // Handle specific error cases
     if (error.response && error.response.status === 409) {
-      bookingError.value = t("booking.errors.slotAlreadyBooked");
+      bookingError.value = t('booking.errors.slotAlreadyBooked');
     } else {
-      bookingError.value = t("booking.errors.bookingFailed");
+      bookingError.value = t('booking.errors.bookingFailed');
     }
 
     alert(bookingError.value);
@@ -1513,21 +1513,21 @@ const handlePayment = async () => {
 // Function to reset booking data
 const resetBookingData = () => {
   bookingData.value = {
-    date: "",
-    timeSlot: "",
+    date: '',
+    timeSlot: '',
     basePrice: 0,
     vrRoom: false,
     services: [],
     userInfo: {
-      name: "",
-      email: "",
-      phone: "",
-      childName: "",
-      childAge: "",
-      message: "",
+      name: '',
+      email: '',
+      phone: '',
+      childName: '',
+      childAge: '',
+      message: '',
     },
   };
-  selectedDate.value = "";
+  selectedDate.value = '';
 };
 
 // Reset submission state when modal is closed
@@ -1535,10 +1535,10 @@ const closePaymentModal = () => {
   showPaymentModal.value = false;
   hasAttemptedSubmit.value = false;
   paymentForm.value = {
-    cardHolder: "",
-    cardNumber: "",
-    expiryDate: "",
-    cvv: "",
+    cardHolder: '',
+    cardNumber: '',
+    expiryDate: '',
+    cvv: '',
   };
 };
 </script>
