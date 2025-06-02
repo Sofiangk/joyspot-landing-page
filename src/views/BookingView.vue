@@ -1465,6 +1465,8 @@ const handlePayment = async () => {
       date: bookingData.value.date,
       time_slot: bookingData.value.timeSlot,
       additional_services: bookingData.value.services,
+      child_name: bookingData.value.userInfo.childName,
+      child_age: bookingData.value.userInfo.childAge,
       special_requests: bookingData.value.userInfo.message || "",
       // Include VR room as an additional service if selected
       ...(bookingData.value.vrRoom && { vr_room: true }),
